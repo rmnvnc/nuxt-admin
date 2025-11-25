@@ -65,7 +65,7 @@ const links = [
 
                 <UDashboardPanel>
                     <template #header>
-                        <UDashboardNavbar title="Home" :ui="{ right: 'gap-3' }">
+                        <UDashboardNavbar :ui="{ right: 'gap-3' }">
                             <template #leading>
                                 <UDashboardSidebarCollapse />
                             </template>
