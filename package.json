@@ -1,26 +1,32 @@
 {
-  "name": "nuxt-admin",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@nuxt/eslint": "^1.10.0",
-    "@nuxt/hints": "^1.0.0-alpha.2",
-    "@nuxt/ui": "^4.2.1",
-    "eslint": "^9.39.1",
-    "nuxt": "^4.2.1",
-    "typescript": "^5.9.3",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
-  },
-  "devDependencies": {
-    "@vue/eslint-config-prettier": "^10.2.0",
-    "prettier": "^3.6.2"
-  }
+    "name": "nuxt-admin",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint .",
+        "typecheck": "nuxi typecheck",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "dev:checkup": "npm run lint && npm run format:fix && nuxi typecheck"
+    },
+    "dependencies": {
+        "@nuxt/ui": "^4.2.1",
+        "nuxt": "^4.2.1",
+        "vue": "^3.5.25",
+        "vue-router": "^4.6.3"
+    },
+    "devDependencies": {
+        "@nuxt/eslint": "^1.10.0",
+        "@nuxt/hints": "^1.0.0-alpha.2",
+        "@vue/eslint-config-prettier": "^10.2.0",
+        "eslint": "^9.39.1",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.3",
+        "vue-tsc": "^3.1.5"
+    }
 }
