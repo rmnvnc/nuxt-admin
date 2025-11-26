@@ -36,46 +36,38 @@ const links = [
 </script>
 
 <template>
-    <Suspense>
-        <UApp>
-            <UDashboardGroup unit="rem" storage="local">
-                <UDashboardSidebar
-                    v-model:open="open"
-                    collapsible
-                    resizable
-                    class="bg-elevated/25"
-                    :ui="{ footer: 'lg:border-t lg:border-default' }"
-                >
-                    <template #header="{ collapsed }"><h1 v-if="!collapsed">Admin</h1></template>
+    <UApp>
+        <UDashboardGroup unit="rem" storage="local">
+            <UDashboardSidebar
+                v-model:open="open"
+                collapsible
+                resizable
+                class="bg-elevated/25"
+                :ui="{ footer: 'lg:border-t lg:border-default' }"
+            >
+                <template #header="{ collapsed }"><h1 v-if="!collapsed">Admin</h1></template>
 
-                    <template #default="{ collapsed }">
-                        <UNavigationMenu
-                            :collapsed="collapsed"
-                            :items="links[0]"
-                            orientation="vertical"
-                            tooltip
-                            popover
-                        />
-                    </template>
+                <template #default="{ collapsed }">
+                    <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip popover />
+                </template>
 
-                    <template #footer="{ collapsed }">
-                        <UserMenu :collapsed="collapsed" />
-                    </template>
-                </UDashboardSidebar>
+                <template #footer="{ collapsed }">
+                    <UserMenu :collapsed="collapsed" />
+                </template>
+            </UDashboardSidebar>
 
-                <UDashboardPanel>
-                    <template #header>
-                        <UDashboardNavbar :ui="{ right: 'gap-3' }">
-                            <template #leading>
-                                <UDashboardSidebarCollapse />
-                            </template>
-                        </UDashboardNavbar>
-                    </template>
-                    <template #body>
-                        <RouterView />
-                    </template>
-                </UDashboardPanel>
-            </UDashboardGroup>
-        </UApp>
-    </Suspense>
+            <UDashboardPanel>
+                <template #header>
+                    <UDashboardNavbar :ui="{ right: 'gap-3' }">
+                        <template #leading>
+                            <UDashboardSidebarCollapse />
+                        </template>
+                    </UDashboardNavbar>
+                </template>
+                <template #body>
+                    <RouterView />
+                </template>
+            </UDashboardPanel>
+        </UDashboardGroup>
+    </UApp>
 </template>
