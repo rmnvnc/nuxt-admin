@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { getPaginationRowModel } from '@tanstack/vue-table'
 import { UBadge } from '#components'
+import type { ContextMenuItem, TableRow } from '@nuxt/ui'
 
 const { data: benefits, status, refresh, error } = await useBenefits()
 
@@ -19,7 +20,7 @@ watch(tableFilter, () => {
     pagination.value.pageIndex = 0
 })
 
-type TableRow = {
+type TableBenefit = {
     title: string
     segments: Record<string, boolean>
 }
@@ -32,7 +33,7 @@ const columns = [
     {
         accesorKey: 'segments',
         header: 'Segmenty',
-        cell: ({ row }: { row: { original: TableRow } }) => {
+        cell: ({ row }: { row: { original: TableBenefit } }) => {
             const segments = row.original.segments
             const active = Object.keys(segments).filter((key) => segments[key] && key !== 'all')
 
@@ -58,6 +59,23 @@ const pagination = ref({
     pageIndex: 0,
     pageSize: 10,
 })
+
+const contextMenuItems = ref<ContextMenuItem[]>([])
+
+function contextMenuOptions(row: TableRow<TableBenefit>) {
+    return [
+        {
+            label: 'Open',
+            onSelect() {
+                console.log('Open', slugify(row.original.title))
+            },
+        },
+    ]
+}
+
+function onContextmenu(_e: Event, row: TableRow<TableBenefit>) {
+    contextMenuItems.value = contextMenuOptions(row)
+}
 </script>
 
 <template>
@@ -70,17 +88,20 @@ const pagination = ref({
 
     <div v-else>
         <UInput v-model="tableFilter" class="max-w-sm mb-8 w-full md:w-auto" placeholder="Search" size="xl" />
-        <UTable
-            ref="benefitTable"
-            v-model:pagination="pagination"
-            v-model:global-filter="tableFilter"
-            class="mb-8"
-            :data="tableData"
-            :columns="columns"
-            :pagination-options="{
-                getPaginationRowModel: getPaginationRowModel(),
-            }"
-        />
+        <UContextMenu :items="contextMenuItems">
+            <UTable
+                ref="benefitTable"
+                v-model:pagination="pagination"
+                v-model:global-filter="tableFilter"
+                class="mb-8"
+                :data="tableData"
+                :columns="columns"
+                :pagination-options="{
+                    getPaginationRowModel: getPaginationRowModel(),
+                }"
+                @contextmenu="onContextmenu"
+            />
+        </UContextMenu>
         <UPagination
             :page="(table?.tableApi?.getState().pagination.pageIndex || 0) + 1"
             :items-per-page="table?.tableApi?.getState().pagination.pageSize"
