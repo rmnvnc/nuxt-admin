@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { getPaginationRowModel } from '@tanstack/vue-table'
+import { UBadge } from '#components'
 
 const { data: benefits, status, refresh, error } = await useBenefits()
 
 const tableData = computed(() => {
     return (benefits.value ?? []).map((item) => ({
-        id: slugify(item.title),
         title: item.title,
         segments: item.segments,
     }))
@@ -16,7 +16,7 @@ const table = useTemplateRef('benefitTable')
 const tableFilter = ref('')
 
 watch(tableFilter, () => {
-    table.value?.tableApi?.resetPageIndex()
+    pagination.value.pageIndex = 0
 })
 
 type TableRow = {
@@ -39,7 +39,16 @@ const columns = [
             return h(
                 'div',
                 { class: 'flex gap-2 flex-wrap' },
-                active.map((seg) => h('span', { class: 'px-2 py-1 rounded bg-gray-200 text-xs' }, seg)),
+                active.map((seg) =>
+                    h(
+                        UBadge,
+                        {
+                            color: 'primary',
+                            variant: 'soft',
+                        },
+                        () => seg,
+                    ),
+                ),
             )
         },
     },
