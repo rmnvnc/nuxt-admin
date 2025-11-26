@@ -1,5 +1,7 @@
+import type { Benefit } from '@/types/benefitType'
+
 export const useBenefits = () => {
-    return useFetch('/api/benefits', {
+    return useFetch<Benefit[]>('/api/benefits', {
         key: 'benefits',
         default: () => [],
         lazy: true,
