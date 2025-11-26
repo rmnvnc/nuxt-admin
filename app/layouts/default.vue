@@ -15,6 +15,14 @@ const links = [
             },
         },
         {
+            label: 'Benefits',
+            icon: 'material-symbols:article-outline',
+            to: '/benefits',
+            onSelect: () => {
+                open.value = false
+            },
+        },
+        {
             label: 'Settings',
             to: '/settings',
             icon: 'i-lucide-settings',
@@ -65,7 +73,7 @@ const links = [
                     </UDashboardNavbar>
                 </template>
                 <template #body>
-                    <RouterView />
+                    <NuxtPage />
                 </template>
             </UDashboardPanel>
         </UDashboardGroup>

@@ -1,0 +1,2999 @@
+[
+  {
+    "title": "Zdravé zuby pre dospelých aj deti",
+    "illustration": "large_zdrave_zuby",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 1, "senior": 1, "adult": 1, "family": 1 },
+    "list": ["pre deti aj dospelých", "pečatenie, ošetrenie zubného kazu aj na dentálnu hygienu"],
+    "detail": {
+      "advantages": [
+        "Dospelým prispejeme <b>2 x 30 €</b> na dentálnu hygienu",
+        "Deťom prispejeme <b>5 x 30 €</b>",
+        "Deťom do 18 rokov prispejeme na ošetrenie zubneho kazu aj dentálnu hygienu, deťom do 14 rokov prispejeme aj na pečatenie trvalých zubov"
+      ],
+      "attentions": [
+        "Príspevok sa vzťahuje len na ošetrenie u zubára, ktorý má zmluvu s Dôverou.",
+        "Podmienkou získania príspevku je absolvovanie preventívky u všeobecného lekára aj zubára. Preventívku u zubára nemusí mať dieťa mladšie ako 2 roky.",
+        "Na príspevok majú nárok len poistenci, ktorí nemajú dlh na zdravotnom poistení ani obdobia, počas ktorých nevieme, kto za nich platil poistné."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Navštívte zmluvného zubára. Zaplaťte za ošetrenie a nezabudnite si <b>odložiť doklad o zaplatení.</b>",
+            "Najneskôr <b>do 10 kalendárnych dní</b> od ošetrenia podajte žiadosť v mobilnej aplikácie Dôvera alebo v elektronickej pobočke. Nahrajte aj doklad o zaplatení.",
+            "Ak je žiadosť v poriadku, najneskôr <b>do 90 kalendárnych dní</b> vám peniaze pošleme na bankový účet."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "300 € za lieky",
+    "illustration": "large_300eur_na_lieky",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 2, "family": 2, "baby": 1 },
+    "list": [
+      "pre rodiny s deťmi do 18 rokov",
+      "za lieky alebo dietetické potraviny na predpis",
+      "netreba dokladovať bločkami z lekárne"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre rodičov a ich deti do 18 rokov, ktorí sú poistení v Dôvere",
+        "Doplatky preplácame za kategorizované lieky a dietetické potraviny vydané na lekársky predpis, za ktoré si pacient dopláca",
+        "O doplatky za lieky možno požiadať do konca marca nasledujúceho roku"
+      ],
+      "attentions": [
+        "Preventívku u všeobecného lekára musí absolvovať osoba, ktorej doplatky sa preplácajú. U dospelých je to preventívka u všeobecného lekára raz za 2 roky, u detí podľa dovŕšeného veku.",
+        "Preventívku u zubára musí absolvovať osoba, ktorej doplatky sa preplácajú, a to najneskôr do dátumu podania žiadosti. Ak ako rodič žiadate o doplatky za lieky dieťaťa, ktoré je staršie ako 2 roky, absolvovanú preventívku musí mať dieťa.",
+        "O doplatok nad 3 € môžete požiadať kedykoľvek počas roka. O sumy nižšie ako 3 € môžete požiadať len od 1.1. do 31.3.",
+        "Benefit môžete čerpať, aj ak je poistencom len dieťa."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Prihláste sa do svojej mobilnej aplikácie alebo e-pobočky. Ak je naším poistencom len vaše dieťa (alebo dieťa, ktorého ste zákonným zástupcom), odporúčame použiť účet dieťaťa.",
+            "V časti <b>Benefity</b> kliknite na benefit 300 € za lieky.",
+            "V položke <b>Na preplatenie</b> si môžete pozrieť sumu, na ktorú máte nárok. Aktuálny zostatok uvidíte, až keď dostaneme všetky potrebné informácie z lekárne. Môže to trvať 4 až 6 týždňov.",
+            "Žiadosť o vrátenie doplatku stačí odoslať kliknutím na <b>Preplatiť.</b>",
+            "Ak je žiadosť v poriadku, <b>do 5 kalendárnych dní</b> vám peniaze pošleme na bankový účet."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "100 € na nové okuliare pre deti",
+    "illustration": "large_zdrave_oci",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 3, "family": 3 },
+    "list": [
+      "pre deti do 18 rokov",
+      "raz ročne na dioptrické okuliare",
+      "u očných lekárov a v optikách, ktoré majú zmluvu s Dôverou"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre poistencov do 18 rokov",
+        "Na očné pomôcky, sériový okuliarový rám aj okuliarové šošovky (sklá)",
+        "Príspevok raz ročne"
+      ],
+      "attentions": [
+        "Pomôcka musí byť predpísaná zmluvným očným lekárom a vyhotovená zmluvnou očnou optikou.",
+        "Podmienkou získania príspevku na detské okuliare je absolvovanie preventívky u pediatra aj zubára."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Navštívte očného lekára a vystavený <b>poukaz</b> na optickú pomôcku si odfoťte.",
+            "Čo najskôr navštívte očnú optiku. Žiadosť treba podať <b>do 30 kalendárnych dní</b> od očného vyšetrenia. Ak vyšetrenie absolvujete v decembri, žiadosť nezabudnite podať najneskôr do 31. decembra v danom roku.",
+            "Žiadosť podajte v mobilnej aplikácii Dôvera alebo v e-pobočke. K žiadosti nezabudnite priložiť poukaz na optickú pomôcku a doklad o zaplatení (pokladničný blok alebo faktúru).",
+            "Ak bude žiadosť v poriadku, najneskôr <b>do 90 kalendárnych dní</b> vám peniaze pošleme na bankový účet."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 50 % na online program Umenie spokojného rodičovstva",
+    "illustration": "large_rodina",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": true,
+      "medical_devices": false
+    },
+    "orders": { "all": 11, "baby": 11, "dovera": 11, "family": 11 },
+    "list": [
+      "pre všetkých poistencov od 18 rokov",
+      "naučte sa praktické techniky pre rovnováhu a radosť v rodičovstve",
+      "pod vedením profesionálnej koučky Lenky Siklienkovej"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov od 18 rokov",
+        "zľava na vstup do 9-týždňového programu online podporných skupín vedených certifikovanou koučkou Lenkou Siklienkovou",
+        "program zahŕňa učenie, koučing aj praktické rady a techniky pre rovnováhu a radosť v rodičovstve."
+      ],
+      "attentions": ["Ďalší online program začína v septembri. Presný termín upresníme."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na webe lenkasiklienkova.com si zakúpte program a zadajte kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľavy na štartovnom na bežeckých podujatiach",
+    "illustration": "large_zlavy",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 12, "adult": 12, "dovera": 12 },
+    "tag": {
+      "label": "Obľúbené",
+      "color": "#C87F16",
+      "bgColor": "#FEF2E1"
+    },
+    "list": [
+      "pre všetkých poistencov Dôvery, ktorí radi športujú",
+      "zľavy na štartovné na vybrané bežecké podujatia"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery, ktorí radi športujú",
+        "zľavy na štartovné na vybrané bežecké podujatia",
+        "konkrétna výška zľavy je vždy uvedená v registračnom formulári na webe organizátorov pretekov"
+      ],
+      "attentions": [
+        "Počet zliav je limitovaný. Na maratóne v Bratislave a v Košiciach ju získa prvých 1000 zaregistrovaných poistencov, na ostatných podujatiach prvých 300 zaregistrovaných poistencov."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Zaregistrujte sa na jeden z behov, ktoré tento rok podporujeme.",
+            "Pri vypĺňaní registrácie do vybraného okienka napíšte svoje identifikačné číslo poistenca(IČP), ktoré nájdete na preukaze poistenca.",
+            "Zľava (od 2 do 4 €) sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 20 % na športovú výbavu a oblečenie v EXIsporte",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 13, "senior": 13, "adult": 13, "family": 13 },
+    "list": ["športová výbava a oblečenie", "kvalitné oblečenie pre celú rodinu"],
+    "detail": {
+      "advantages": [
+        "kvalitné oblečenie pre celú rodinu",
+        "športové oblečenie a obuv, športová výbava a doplnky na cvičenie",
+        "prilby a chrániče, batohy, tašky aj peňaženky"
+      ],
+      "attentions": [
+        "Zľavový kód je časovo neobmedzený a nie je možné ho kombinovať s inými zľavami."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Do košíka na stránke Exisport.sk vložte vybrané produkty do košíka a zadajte kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 30 % na aplikáciu Planeat 365 od výživového poradcu Michala Páleníka",
+    "illustration": "large_zlava_na_apku",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 14, "senior": 14, "adult": 14, "dovera": 14 },
+    "list": [
+      "zľava na webovú aplikáciu plnú chutných a vyvážených receptov od odborníka na výživu",
+      "recepty prispôsobených vašim kalorickým potrebám, vytvorenie nákupného zoznamu, užitočné tipy a rady na chudnutie"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava na webovú aplikáciu plnú chutných a vyvážených receptov od odborníka na výživu",
+        "mesačný poplatok za aplikáciu je 6,99 €, poistenci Dôvery zaplatia len 4,90 €.",
+        "recepty prispôsobených vašim kalorickým potrebám, vytvorenie nákupného zoznamu, užitočné tipy a rady na chudnutie"
+      ],
+      "attentions": ["Zľava sa nedá kombinovať s inými zľavami."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavu. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení IČP vás presmerujeme do webovej aplikácie.",
+            "V aplikácii sa zaregistrujte svojím mailom."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľavy v lekárňach Dr. Max",
+    "illustration": "large_zlavy",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 15, "senior": 15, "adult": 15, "family": 15 },
+    "list": [
+      "rôzne zľavy počas celého roka",
+      "platí na produkty Dr. Max - výživové doplnky, výrobky na dentálnu hygienu, kozmetika"
+    ],
+    "detail": {
+      "advantages": [
+        "rôzne zľavy počas celého roka",
+        "platí na produkty Dr. Max - výživové doplnky, výrobky na dentálnu hygienu, kozmetika"
+      ],
+      "attentions": ["Zľavový kód neplatí na produkty so zľavou alebo označené ako Cenová bomba."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Kód stačí povedať lekárnikovi pri pokladni v ktorejkoľvek lekárni Dr. Max alebo zadať do poľa „Mám zľavový kód“ v e-shope www.drmax.sk . Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľavy na pobyty v Moderných kúpeľoch Turčianske Teplice",
+    "illustration": "large_lacnejsie_kupele",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 16, "senior": 16, "adult": 16, "family": 16 },
+    "list": [
+      "pre všetkých poistencov od 18 rokov",
+      "zľavy na pobyty v Moderných kúpeľoch Turčianske Teplice"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov od 18 rokov",
+        "zľavy na pobyty v Moderných kúpeľoch Turčianske Teplice",
+        "zľavy si možno uplatniť v hoteloch: KLASIK Veľká Fatra a ROYAL KLASIK v hoteli ROYAL PALACE (zľava 20 %), REZIDENCIA OPERA (zľava 70 €), GALANDA APARTMENTS (zľava 40 €)"
+      ],
+      "attentions": [
+        "Zľava platí vždy na celú objednávku, teda aj na príplatky za deti alebo doplnkové služby. Nemôže sa kombinovať s inými zľavami. Ak ich máte viac, vždy platí tá najvyššia."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si <b>zľavový kód</b>. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete <b>skopírovať</b> alebo <b>poslať na mail</b>.",
+            "Vyberte si jeden z pobytov a <b>objednajte</b> si ho."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava na metódy reprodukčnej medicíny",
+    "illustration": "large_reprodukcna_medicina",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 17, "baby": 17, "family": 17 },
+    "list": [
+      "pre poistencov od 18 rokov",
+      "zľava 100 € na vybrané liečebné metódy na klinike Repromedica"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava 100 € na vybrané liečebné metódy na klinike Repromedica",
+        "tieto metódy zvyšujú šancu oplodnenia"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Objednajte sa na vstupnú konzultáciu alebo zvolený zákrok na webe ReproMedicy, mailom na info@repromedica.sk alebo telefonicky na čísle 0903 992 626.",
+            "Pri návšteve kliniky ukážte svoj preukaz poistenca. Zľavu vám automaticky odrátajú."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Jednotka zdravia",
+    "illustration": "large_jednotka_zdravia",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 18, "senior": 18, "adult": 18, "dovera": 6 },
+    "list": [
+      "pre všetkých, aj keď nie ste poistencom Dôvery",
+      "zdravotné merania aj bez objednania a zadarmo",
+      "v rôznych mestách po celom Slovensku"
+    ],
+    "detail": {
+      "advantages": [
+        "kontrola zdravotného stavu zadarmo",
+        "merania telesných parametrov, diagnostika stavu pleti a pokožky, merania z krvi: cukor, cholesterol, kyselina močová, kožné meranie AIP Derm, meranie tlaku",
+        "aj bez objednania a dlhého čakania"
+      ],
+      "attentions": [
+        "Naši poistenci pri návšteve Jednotky zdravia dostanú kupón na zľavu 25 % na nákup a 1 vyšetrenie zdarma v lekárňach Dr. Max."
+      ]
+    }
+  },
+  {
+    "title": "Festival zdravia od Dôvery",
+    "illustration": "large_festival_zdravia",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": {
+      "all": 19,
+      "senior": 19,
+      "adult": 19,
+      "dovera": 19,
+      "family": 19
+    },
+    "list": [
+      "zadarmo a pre všetkých",
+      "každý rok v 24 mestách po celom Slovensku",
+      "rôzne merania a iné zaujímavé aktivity"
+    ],
+    "detail": {
+      "advantages": [
+        "Unikátny projekt zameraný na starostlivosť o zdravie a prevenciu",
+        "Každý rok si v 24 mestách po celom Slovensku môžete preveriť svoj zdravotný stav a poradiť sa s odborníkmi",
+        "Návštevníkom Festivalu zdravia ponúkame množstvo zaujímavých informácií, meraní, aktivít a súťaž"
+      ]
+    }
+  },
+  {
+    "title": "Lekár na diaľku zadarmo",
+    "illustration": "large_lekar_na_dialku",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": true,
+      "adult": true,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": {
+      "all": 4,
+      "adult": 3,
+      "family": 4,
+      "senior": 2,
+      "baby": 4,
+      "dovera": 1
+    },
+    "list": [
+      "pre všetkých poistencov Dôvery, ktorí nemajú dlh na poistnom",
+      "spojenie sa so všeobecným lekárom do 30 minút",
+      "možnosť získať predpis na lieky vo forme e-receptu"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery",
+        "spojenie sa so všeobecným lekárom do 30 minút",
+        "možnosť získať predpis na lieky vo forme e-receptu"
+      ],
+      "attentions": [
+        "Aplikácia neslúži na poskytovanie komplexnej ani akútnej zdravotnej starostlivosti, ale na konzultáciu menej závažných zdravotných problémov."
+      ],
+      "more": {
+        "stepper": {
+          "stepsWithInfoBox": [
+            {
+              "content": "Stiahnite si <b>aplikáciu MEDDI</b> a zaregistrujte sa. Počas registrácie v možnostiach vyberte, že ste poistenec Dôvery."
+            },
+            {
+              "content": "V apke požiadate o spojenie s lekárom a posadíte sa do jeho <b>virtuálnej čakárne.</b>",
+              "info": "Ak používate aplikáciu MEDDI cez počítač, nechajte prehliadač otvorený. Ak budete na mobile, môžete z apky odísť. Keď vás bude lekár kontaktovať, príde vám notifikácia."
+            },
+            {
+              "content": "Všeobecný lekár alebo pediater sa vám <b>do 30 minút ozve</b> späť. Väčšinou vás kontaktuje najprv cez správu, následne si formu komunikácie (chat, hovor, videohovor) môžete s lekárom dohodnúť vy sami."
+            },
+            {
+              "content": "Po vyšetrení vám lekár pošle <b>lekársku správu</b> do eKarty v apke MEDDI aj na mail. Ak to bude potrebné, predpíše vám <b>e-recept</b> alebo odporučenie na konzultáciu so špecialistom.",
+              "info": "Ak si liek vyzdvihnete v zahraničí, treba rátať s tým, že si ho platíte sami. Na Slovensku sú doplatky hradené zo zdravotného poistenia podľa typu lieku."
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 25 % na laktačné poradenstvo",
+    "illustration": "large_laktacne_vanickovanie_baby",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 23, "baby": 23, "family": 23 },
+    "list": [
+      "využite služby laktačnej poradkyne z We Care Centra a vylepšite si techniku dojčenia",
+      "konzultácie možno využiť online aj osobne u vás doma"
+    ],
+    "detail": {
+      "advantages": [
+        "využite služby laktačnej poradkyne z We Care Centra a vylepšite si techniku dojčenia",
+        "laktašná poradkyňa predvedie konkrétne postupy a polohy pri dojčení, poukáže na chyby a poskytne praktické tipy na ich odstránenie.",
+        "konzultácie možno využiť online aj osobne u vás doma"
+      ],
+      "attentions": [
+        "Osobná návšteva môže prebehnúť iba vo vzdialenosti 40 kilometrov od Bratislavy. V rámci Bratislavy je doprava bezplatná, mimo Bratislavy je spoplatnená (10 € do 20 km, 15 € do 30 km, 20 € do 40 km).",
+        "Zľavu môžete využiť jedenkrát."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Do košíka na stránke We Care Centrum vyberte “Laktačná pomoc - služby laktačnej poradkyne u Vás doma” a v košíku zadajte kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava na dovolenku od cestovných kancelárií TIP travel a Koala Tours",
+    "illustration": "large_vsetky_benefity",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": {
+      "all": 24,
+      "senior": 24,
+      "adult": 24,
+      "dovera": 24,
+      "family": 24
+    },
+    "list": [
+      "v ponuke je množstvo zájazdov s leteckou, individuálnou aj autobusovou dopravou",
+      "zľava do 30 € podľa typu dopravy"
+    ],
+    "detail": {
+      "advantages": [
+        "v ponuke je množstvo zájazdov s leteckou, individuálnou aj autobusovou dopravou",
+        "výška zľavy závisí od typu dopravy - 30 € na zájazdy s leteckou dopravou a 20 € na zájazdy s individuálnou alebo autobusovou dopravou",
+        "izba musí byť obsadená minimálne 2 osobami a maximálne 5 osobami"
+      ],
+      "attentions": [
+        "Zľavu je možné kombinovať s ďalšími akciami či zájazdmi typu Last minute.",
+        "Zľavu je potrebné si uplatniť najneskôr 7 dní pred dátumom odjazdu."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavu. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení IČP vás presmerujeme do webovej aplikácie.",
+            "Kód stačí povedať pracovníkovi v ktorejkoľvek pobočke cestovných kancelárií alebo ho po výbere zájazdu na stránke TIP travel alebo Koala Tours zadať do poznámky."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Animoterapia: Liečba s asistenciou zvierat",
+    "illustration": "large_animoterapia",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": false,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": true,
+      "medical_devices": false
+    },
+    "orders": { "all": 25, "dovera": 25 },
+    "list": [
+      "podporná metóda v oblasti rehabilitácie a pri liečbe pacientov s psychologickými, citovými a sociálno-integračnými problémami",
+      "špeciálne vycvičené psy pomáhajú napredovať v liečbe pacientom v 5 nemocniciach na Slovensku"
+    ],
+    "detail": {
+      "advantages": [
+        "podporná metóda v oblasti rehabilitácie a pri liečbe pacientov s psychologickými, citovými a sociálno-integračnými problémami",
+        "špeciálne vycvičené psy pomáhajú napredovať v liečbe pacientom v 5 nemocniciach na Slovensku"
+      ]
+    }
+  },
+  {
+    "title": "Zľava 20 % na športovú výživu a doplnky Voxberg",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 26, "adult": 26 },
+    "list": [
+      "pre všetkých poistencov",
+      "široký sortiment športovej výživy",
+      "vitamíny a minerály, spaľovače tukov, kreatíny aj proteínové prášky"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov",
+        "široký sortiment pre aktívnych aj rekreačných športovcov",
+        "vitamíny a minerály, spaľovače tukov, kreatíny aj proteínové prášky"
+      ],
+      "attentions": [
+        "Voxberg spolupracuje s poprednými výskumníkmi a ich dlhoročné skúsenosti a najmodernejšie poznatky pretavuje do produktov, ktoré vám umožnia byť o krok vpred."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Do košíka na stránke Voxberg vložte vybrané produkty do košíka a zadajte kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Overenie dostupnosti a rezervácia lieku",
+    "illustration": "large_lieky",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 27, "senior": 27, "adult": 27, "family": 27 },
+    "list": [
+      "overenie cez mobilnú apku",
+      "elektronický recept s predpísaným liekom od lekára",
+      "v sieti lekární Dr. Max po celom Slovensku"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetkých poistencov Dôvery, ktorí majú vo svojej mobilnej aplikácii Dôvera elektronický recept s predpísaným liekom od lekára",
+        "Možnosť overiť si dostupnosť liekov v ktorejkoľvek zo 400 lekární Dr. Max a následne si ich zarezervovať",
+        "Vďaka rezervácii na vás 48 hodín počkajú aj lieky, ktoré môžu byť ťažko dostupné"
+      ],
+      "attentions": [
+        "Rezervácia je nezáväzná. Predpísaný liek si aj po rezervácii môžete naďalej vyzdvihnúť v ľubovoľnej lekárni.",
+        "Lieky je potrebné vybrať do doby platnosti e-receptu. Rezervácia lieku nepredlžuje platnosť e-receptu."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vo svojej mobilnej aplikácii Dôvera vyhľadajte v sekcii Zdravie e-recept, ktorý vám predpísal lekár a kliknite na Prejsť k rezervácii.",
+            "Zadajte názov mesta či obce vo vašom okolí a vyberte si lekáreň, v ktorej si chcete liek prevziať.",
+            "Ak je v danej lekárni liek dostupný, budete presmerovaný na rezervačný formulár siete lekární Dr. Max, v ktorom vyplníte vaše kontaktné údaje. Nezabudnite si skontrolovať, či sú správne.",
+            "Hneď, ako bude liek pripravený na výdaj, dostanete od lekárne potvrdenie o spracovaní rezervácie na vami zadané kontaktné údaje. Liek si môžete vyzdvihnúť do 48 hodín od doručenia potvrdenia, najviac však do doby platnosti e-receptu."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 15 % na knihy o stravovaní",
+    "illustration": "large_zlavy_15",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 28, "senior": 28, "adult": 28 },
+    "list": [
+      "knihy od vydavateľstva Raabe",
+      "overené informácie od odborníkov na stravu, odporúčania od lekárov, ale aj zdravé recepty, jedálničky a informácie o konkrétnych potravinách",
+      "recepty pozostávajú z bežne dostupných surovín"
+    ],
+    "detail": {
+      "advantages": [
+        "v knihách o stravovaní od vydavateľstva Raabe nájdete overené informácie od odborníkov na stravu, odporúčania od lekárov, ale aj zdravé recepty, jedálničky a informácie o konkrétnych potravinách",
+        "odborným garantom edície diét je populárny gastroenterológ MUDr. Peter Minárik, sériu Potravinová a nutričná gramotnosť zostavil známy potravinár prof. Jozef Golian",
+        "recepty pozostávajú z bežne dostupných surovín a zohľadňujú potreby pri rôznych zdravotných komplikáciách"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavu. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení IČP vás presmerujeme do webovej aplikácie.",
+            "Do košíka na stránke vydavateľstva Raabe vložte vybrané knihy a zadajte kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 25 % na výživové doplnky od DNA4fit",
+    "illustration": "large_zlavy_25",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 29, "adult": 29, "senior": 29 },
+    "list": [
+      "široký výber doplnkov výživy",
+      "ich užívanie je vhodné najmä pri oslabenej imunite, väčšej fyzickej námahe či v obdobiach zvýšenej chorobnosti"
+    ],
+    "detail": {
+      "advantages": [
+        "Výživové doplnky vám môžu pomôcť posilniť vaše zdravie",
+        "Ich užívanie je vhodné najmä pri oslabenej imunite, väčšej fyzickej námahe či v obdobiach zvýšenej chorobnosti",
+        "Značka DNA4fit ponúka široký výber doplnkov výživy pre deti, seniorov, rekreačných a vrcholových športovcov, ale aj na posilnenie imunity, úľavu od stresu a posilnenie srdcovo-cievneho systému"
+      ],
+      "attentions": [
+        "Zľavu si môžete uplatniť aj v prípade, ak je produkt už zľavnený. V košíku sa však zľava odráta vždy z pôvodnej ceny produktu. "
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke DNA4fit si vyberte produkty a vložte ich do košíka. V košíku zadajte svoj zľavový kód. Zľava 25 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava až do 800 € na DNA testy",
+    "illustration": "large_DNA",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 30, "adult": 30, "family": 30 },
+    "list": [
+      "pre všetkých poistencov bez ohľadu na vek",
+      "môže pomôcť odhaliť zdravotné riziká či športový potenciál"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava sa vzťahuje na 5 druhov DNA testov od spoločnosti DNA4fit",
+        "môže pomôcť odhaliť zdravotné riziká či športový potenciál alebo lepšie pochopiť fungovanie organizmu",
+        "výsledky testu môžu odhaliť prítomnosť škodlivých génov, potravinové intolerancie či odolnosť voči stresu"
+      ],
+      "attentions": [
+        "Zľavu je možné uplatniť na nákup jedného alebo viacerých vyššie uvedených produktov a služieb. Nie je však možné kombinovať dve rôzne zľavy."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Na stránke DNA4fit si vložte vybraný test do nákupného košíka a zadajte zľavový kód. Zľava sa vám automaticky odráta z ceny testu.",
+            "Zakúpený test vám zadarmo prinesie kuriér.",
+            "Doma si odoberiete vzorku slín a bezplatne odošlete do laboratória v priloženej obálke. Analýza vašej DNA prebehne v špecializovanom laboratóriu v Európe.",
+            "Do 40 dní dostanete výsledky analýzy vašej vzorky v slovenskom jazyku."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Doprava do Borov",
+    "illustration": "large_doprava",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 31, "adult": 31, "senior": 3, "dovera": 4 },
+    "list": [
+      "pre poistencov z celého Slovenska od 18 rokov",
+      "raz za 365 dní",
+      "samozrejmosťou je aj bezplatná doprava späť domov"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetkých poistencov Dôvery z celého Slovenska, ktorí majú viac ako 18 rokov",
+        "Z ktorékoľvek miesta na Slovensku aj späť domov",
+        "Dopravu na hospitalizáciu nemusí odporučiť lekár"
+      ],
+      "attentions": [
+        "Poistenec musí byť objednaný na plánovaný zákrok v Nemocnici Bory.",
+        "Pre poistencov, ktorí nemajú dlh na zdravotnom poistení."
+      ],
+      "more": {
+        "additionalContent": [
+          "Na ošetrenie sa môžete objednať:<ul><li>Telefonicky na čísle 0950 105 510</li><li>Osobne na recepcii nemocnice</li><li>Priamo cez lekára špecialistu</li></ul>"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Zľavy v poliklinikách ProCare",
+    "illustration": "large_procare_zlavy",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 32, "senior": 32, "adult": 32, "family": 32 },
+    "list": [
+      "zľavy na zákroky v poliklinike ProCare Betliarska v Bratislave",
+      "30 % zľava za výber operatéra pri ORL operačných výkonoch pre deti a dospelých",
+      "zľava na výkon cievnej chirurgie"
+    ],
+    "detail": {
+      "advantages": [
+        "zľavy na zákroky v poliklinike ProCare Betliarska v Bratislave",
+        "zľava 30 % za výber operatéra pri ORL operačných výkonoch pre deti a dospelých pacientov, ktorí už boli vyšetrení na ORL ambulancii a majú odporúčanie na operačný výkon",
+        "výkony u detí sa vykonávajú výlučne v celkovej anestézii",
+        "zľava na výkon cievnej chirurgie (operácia kŕčových žíl pre pacientov), ktorým lekár odporučil operačný výkon, prípadne sami chcú podstúpiť operačný výkon buď zo zdravotného, alebo z estetického dôvodu"
+      ],
+      "attentions": [
+        "Každému zdravotnému zákroku predchádza vyšetrenie u lekára. Na toto vyšetrenie sa môžete objednať telefonicky prostredníctvom kontaktného centra ProCare. Lekár vám po vyšetrení odporučí objednať sa na zákrok osobne na recepcii polikliniky.",
+        "O zľavu môžete požiadať osobne na recepcii v momente, keď si dohadujete termín výkonu."
+      ]
+    }
+  },
+  {
+    "title": "Cytologické vyšetrenie LBC u gynekológa bezplatne",
+    "illustration": "large_vsetky_benefity",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 33, "adult": 33 },
+    "list": [
+      "jednoduché a rýchle vyšetrenie",
+      "bezplatne pre poistenky Dôvery",
+      "u zmluvných lekárov, ktorí spolupracujú s laboratóriami Unilabs"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetky ženy, ktoré absolvujú pravidelnú preventívku u gynekológa",
+        "Jednoduché a rýchle vyšetrenie krčka maternice",
+        "LBC patrí medzi najpresnejšie spôsoby, akými sa dá zo steru z krčka maternice odhaliť predrakovinové štádium ochorenia a identifikovať širší okruh ochorení"
+      ],
+      "attentions": [
+        "Vyšetrenie LBC metódou je vďaka automatizácii jednoduchšie, s nižším rizikom falošne pozitívneho výsledku.",
+        "Bezplatne iba u zmluvných lekárov, ktorí spolupracujú s laboratóriami Unilabs."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Naše poistenky majú LBC vyšetrenie zdarma u gynekológov, ktorí <b>spolupracujú s laboratóriami Unilabs.</b> Zistite, či má zmluvu aj váš gynekológ.",
+            "Objednajte sa na <b>preventívnu prehliadku</b>, ktorej súčasťou je aj cytologické vyšetrenie.",
+            "Pred cytologickým vyšetrením požiadajte svojho lekára o vyšetrenie <b>metódou LBC.</b>"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "BabyBox v hodnote 80 €",
+    "illustration": "large_vsetky_benefity_2",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 35, "baby": 2, "family": 35 },
+    "list": [
+      "pre detičky do 2 rokov",
+      "praktická taška plná kozmetiky a potrieb pre deti aj mamičky",
+      "kuriér ju prinesie k vám domov úplne zadarmo"
+    ],
+    "detail": {
+      "advantages": [
+        "Praktická taška BabyBox plná kozmetiky a potrieb pre deti aj mamičky (krémy, podbradník, cumlík, vitamíny aj odsávačku hlienov)",
+        "Okrem obsahu využijete aj samotnú tašku – je praktická a dá sa prichytiť na detský kočík",
+        "Kuriér ju prinesie k vám domov a úplne zadarmo"
+      ],
+      "attentions": [
+        "Darčekovú tašku venujeme našim najmenším poistencom do 2. roku, ktorí ešte nedostali BabyBox.",
+        "Termín platnosti je uvedený v SMS/e-mailovej notifikácii. Ak ho do uvedeného termínu nevyužijete, jeho platnosť vyprší. Po tomto termíne už, bohužiaľ, nebudete mať nárok na nový kupón."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Zastavte sa osobne na niektorej z našich pobočiek alebo zavolajte na zákaznícku linku. Cez SMS alebo e-mailom vám doručíme unikátny kód.",
+            "Na stránke lekární Dr. Max si objednajte BabyBox vložením do košíka a použite unikátny kód (po objednaní dostanete potvrdzujúci e-mail/SMS o prijatí objednávky).",
+            "BabyBox Vám zadarmo doručíme kuriérom."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Kožné vyšetrenie online a zadarmo",
+    "illustration": "large_AIPderm",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": true,
+      "adult": true,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": {
+      "all": 37,
+      "senior": 4,
+      "baby": 5,
+      "adult": 5,
+      "family": 6,
+      "dovera": 3
+    },
+    "list": [
+      "rýchle a bezpečné",
+      "kožný lekár fotku posúdi do 3 pracovných dní",
+      "vystavenie e-receptu alebo odporučenie na osobnú návštevu ambulancie"
+    ],
+    "detail": {
+      "advantages": [
+        "Rýchle a bezpečné vyšetrenie",
+        "Pre všetkých poistencov Dôvery s akýmkoľvek kožným ochorením, problémom alebo útvarom na koži, ktorý by radi prekonzultovali s odborníkom",
+        "Výsledok už do 3 dní"
+      ],
+      "attentions": [
+        "Na absolvovanie online vyšetrenia potrebujete len prístup na internet a fotoaparát (v mobile)."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Zaregistrujte sa na stránke AIP Derm.",
+            "Odfoťte svoj kožný problém a fotku nahrajte. Ak máte kožných problémov viac, každú <b>fotku nahrajte</b> zvlášť ako samostatné vyšetrenie.",
+            "<b>Vyplňte otázky</b> o vašom zdravotnom stave. Tieto údaje lekárovi pomôžu k lepšiemu zhodnoteniu zdravotného problému.",
+            "Kožný lekár Vašu fotku posúdi <b>do 3 pracovných dní.</b> Správu od lekára nájdete v aplikácii AIP Derm v časti Informačný panel (Moje prípady).",
+            "Ak to bude potrebné, lekár odporučí niektorý z voľnopredajných liekov alebo vám vystaví <b>e-recept</b>, ktorý nájdete v e-pobočke aj v mobilnej aplikácii. Odporučiť tiež môže <b>osobnú návštevu ambulancie.</b>"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľavy na okuliare a vyšetrenie zraku",
+    "illustration": "large_zdrave_oci",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": {
+      "all": 38,
+      "senior": 38,
+      "adult": 38
+    },
+    "list": [
+      "pre poistencov od 18 rokov",
+      "zľavy na vyhotovenie, opravu dioptrických okuliarov a kompletné vyšetrenie zraku"
+    ],
+    "detail": {
+      "advantages": [
+        "benefit možno využiť v optikách Fokus",
+        "zľavy až 30 % na vyhotovenie, opravu dioptrických okuliarov a kompletné vyšetrenie zraku"
+      ],
+      "attentions": [
+        "Zľava sa vzťahuje len na pôvodnú cenu produktu pred akoukoľvek zľavou od výrobcu."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Na stránke www.fokusoptika.sk kliknite vpravo hore na Objednať vyšetrenie.",
+            "Vyberte si pobočku , v ktorej chcete meranie absolvovať.",
+            "V časti S čím vám môžeme pomôcť vyberte Vyšetrenie zraku Dôvera.",
+            "Zvoľte termín vyšetrenia."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "CRP vyšetrenie so zľavou",
+    "illustration": "large_CRP",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 40, "senior": 40, "adult": 40, "family": 40 },
+    "list": [
+      "v ktorejkoľvek lekárni Dr. Max",
+      "zvýhodnená cena 3,99 €",
+      "vyšetrenie z kvapky krvi z prsta s výsledkom do 3 minút"
+    ],
+    "detail": {
+      "advantages": [
+        "Hladina CRP v krvi pomôže rozlíšiť bakteriálnu od vírusovej infekcie a nastaviť vhodnú liečbu",
+        "Rýchle a minimálne bolestivé s výsledkom do 3 minút",
+        "Priamo v lekárni stačí predložiť preukaz poistenca alebo občiansky preukaz"
+      ],
+      "attentions": [
+        "Vyšetrenie môžu absolvovať všetci naši poistenci starší ako 10 rokov. Pre mladšie deti odporúčame pri akýchkoľvek zdravotných komplikáciach návštevu lekára."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Stanovenie hladiny CRP môžete absolvovať <b>v ktorejkoľvek z</b> lekární Dr. Max <b>na Slovensku.</b> V každej z nich majú k dispozícii diagnostický prístroj, aký nájdete vo väčšine ambulancií všeobecných lekárov.",
+            "Vyšetrenie prebieha z odobratej kvapky krvi z prsta, je rýchle a minimálne bolestivé. <b>Výsledok máte do 3 minút.</b>",
+            "Ako poistenec Dôvery za vyšetrenie zaplatíte <b>zvýhodnenú cenu 3,99 eura.</b> Cena pred zľavou je 8,99 eura."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 5 % navyše na zľavových portáloch",
+    "illustration": "large_zlavy_05",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 42, "senior": 42, "adult": 42, "family": 42 },
+    "list": [
+      "široký výber produktov aj služieb",
+      "viac ako 1000 ponúk",
+      "nové zážitky, reštaurácie, masáže či relax doma aj v zahraničí"
+    ],
+    "detail": {
+      "advantages": [
+        "naši poistenci môžu nakupovať na portáli zlavadna.sk so špeciálnou zľavou",
+        "výber z viac ako 1000 ponúk",
+        "môžete objaviť nové zážitky, reštaurácie, užiť si masáže či relax doma aj v zahraničí"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Zaregistrujte sa na stránke zlavadna.sk a vyberte si darček pre seba alebo svojich blízkych . V košíku zadajte svoj zľavový kód. Zľava 5 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 30 % na biopotraviny Bobule",
+    "illustration": "large_zlavy_30",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 43, "senior": 43, "adult": 43, "family": 43 },
+    "list": [
+      "slovenské prírodné produkty",
+      "pri nákupe nad 30 eur zľava 30 %",
+      "v ponuke sú prírodné šťavy, džemy či výživy"
+    ],
+    "detail": {
+      "advantages": [
+        "slovenské prírodné produkty bez konzervantov a umelých farbív",
+        "pri nákupe nad 30 eur zľava 30 %",
+        "v ponuke sú prírodné šťavy, džemy či výživy"
+      ],
+      "attentions": ["Všetky produkty majú nízky obsah kalórií a pomáhajú tak spaľovať tuky."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete vľavo dole na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke bobule. si vyberte produkty za minimálne 30 eur. V košíku zadajte zľavový kód a zľava vo výške 30 % sa vám automaticky odráta z ceny produktov."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 25 % na kozmetiku Facederma",
+    "illustration": "large_zlavy_25",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": true
+    },
+    "orders": { "all": 44, "adult": 44 },
+    "list": [
+      "prírodná slovenská kozmetika",
+      "pre ženy aj mužov",
+      "pleťové krémy, séra, telové oleje aj prípravky špeciálnej starostlivosti"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava na nezľavnené kozmetické produkty slovenskej značky Facederma",
+        "Facederma je prírodná kozmetika vyrobená na Slovensku",
+        "z ponuky si môžete vybrať pleťové krémy, séra, telové oleje aj prípravky špeciálnej starostlivosti"
+      ],
+      "attentions": [
+        "Zľava platí len na pôvodné ceny kozmetických produktov pred akoukoľvek zľavou, ktorú poskytne výrobca."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Kliknite na tlačidlo Mám záujem.",
+            "Zadajte svoje IČP (identifikačné číslo poistenca) z preukazu poistenca. Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na vami uvedený e-mail.",
+            "Na stránke facederma.sk/obchod si vyberiete kozmetický produkt a vložíte ho do košíka.",
+            "V košíku si uplatníte zľavový kód, ktorý ste od nás získali, a zľava vo výške 25% sa vám automaticky odráta z ceny produktov."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 20 % na testy od Unilabs Slovensko",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 45, "senior": 45, "adult": 45, "family": 45 },
+    "list": [
+      "testy môžu pomôcť odhaliť niektoré ochorenia, hladinu vitamínov, minerálov a hormónov v tele či intolerancie na potraviny",
+      "pri niektorých testoch môže byť stanovená minimálna veková hranica"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery (pri niektorých testoch môže byť stanovená minimálna veková hranica)",
+        "testy vám môžu pomôcť odhaliť niektoré ochorenia, hladinu vitamínov, minerálov a hormónov v tele či intolerancie na potraviny",
+        "na testy je možné objednať sa online na presný dátum a čas a tiež vybrať si z viacerých odberových miest"
+      ],
+      "attentions": [
+        "Zľava platí len na pôvodnú cenu testu pred akoukoľvek zľavou od poskytovateľa. Neplatí na darčekové poukazy ani na prípadný manipulačný poplatok pri vybraných testoch."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke Unilabs Online si vložte vybraný test do nákupného košíka a zadajte zľavový kód. Zľava sa vám automaticky odráta. Zľavu si môžete uplatniť aj na nákup viacerých testov v jednej objednávke.",
+            "Na testy je možné objednať sa online na presný dátum a čas a tiež vybrať si z viacerých odberových miest."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 25 % na bezlepkové potraviny Vitacelia",
+    "illustration": "large_zlavy_25",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 46, "senior": 46, "adult": 46, "family": 46 },
+    "list": [
+      "chutné a zdravé potraviny, ktoré neobsahujú lepok",
+      "bohatý výber",
+      "chlieb, žemle, buchty aj koláče"
+    ],
+    "detail": {
+      "advantages": [
+        "chutné a zdravé výrobky pre ľudí s celiakiou",
+        "bohatý výber balených bezlepkových výrobkov",
+        "chlieb, žemle, bagetky a pagáče, buchty, koláče aj muffiny, čajové pečivo"
+      ],
+      "attentions": [
+        "Zľava sa vzťahuje len na pôvodnú cenu produktu pred akoukoľvek zľavou od výrobcu."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Získať zľavový kód.",
+            "Zadajte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Do košíka na stránke Vitacelia vložte vybrané produkty a zadajte kód. Zľava sa vám automaticky odráta.",
+            "Kuriér vám prinesie zásielku kdekoľvek na Slovensku zväčša do jedného pracovného dňa. Môžete tiež využiť aj osobný odber v Žiline alebo v Nitre či zásielkovňu."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 40 % na jedálničky od výživového poradcu Michala Pálenika",
+    "illustration": "large_zlavy_40",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 47, "adult": 47 },
+    "list": [
+      "100 receptov na redukciu hmotnosti",
+      "jedálničky rozdelené podľa diagnóz, životného štýlu a cieľov",
+      "obsahujú zdravšie verzie bežných jedál aj ich bezmäsité alternatívy"
+    ],
+    "detail": {
+      "advantages": [
+        "jedálničky obsahujú 100 receptov na redukciu hmotnosti (raňajky, obedy, desiate, večere), 50 rád pre jednoduché a lacné varenie, manuál s odporúčaniami na zmenu životosprávy od Miška Páleníka a vzorový plán jedál na 3 dni",
+        "jedálničky rozdelené podľa diagnóz, životného štýlu a cieľov",
+        "jedálničky obsahujú zdravšie verzie bežných jedál aj ich bezmäsité alternatívy"
+      ],
+      "attentions": [
+        "Zľava sa vzťahuje len na pôvodnú cenu produktu pred akoukoľvek zľavou od výrobcu."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Kód zadajte pri kúpe e-jedálničkov na stránke Planeat. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 30 % na online tréningový program",
+    "illustration": "large_zlavy_30",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 48, "adult": 48 },
+    "list": [
+      "pod vedením tímu profesionálneho trénera Janyho Landla",
+      "množstvo tréningových programov pre začiatočníkov aj pokročilých",
+      "jedálničky na mieru"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetkých poistencov Dôvery, ktorí sa zaregistrujú a zakúpia si mesačné členstvo programu LIVE+",
+        "tréningový program LIVE+ pod vedením profesionálneho trénera Janyho Landla a zdravé jedálničky pripravené na mieru",
+        "množstvo tréningových programov pre začiatočníkov aj pokročilých zameraných na precvičenie rôznych partií tela"
+      ],
+      "attentions": [
+        "Program sa automaticky predlžuje každý mesiac. Ak si neželáte program predĺžiť, je potrebné odhlásiť sa z neho priamo v profile používateľa na stránke www.janylandl.sk.",
+        "Súčasťou balíka je prístup do archívu všetkých odcvičených tréningov, ktoré si môžete prehrať kedykoľvek."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Zaregistrujte sa na stránke Janyho Landla a vyberte si mesačný program LIVE+. Pri registrácii zadajte zľavový kód. Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 15 % na nákup športového kočíka a autosedačky",
+    "illustration": "large_zlavy_15",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 49, "baby": 49, "family": 49 },
+    "list": [
+      "online alebo v kamenných predajniach Feedo",
+      "značky Easywalker, Petite&Mars, Chicco, Kinderkraft a Kinderkraft Select"
+    ],
+    "detail": {
+      "advantages": [
+        "naši poistenci ich môžu kúpiť online alebo v kamenných predajniach Feedo so zľavou",
+        "športové kočíky značiek Easywalker, Petite&Mars, Chicco, Kinderkraft a Kinderkraft Select",
+        "autosedačky Petite&Mars, Chicco a Kinderkraft (kategória 0-18 kg a kategória 9 kg+)"
+      ],
+      "attentions": [
+        "Zľava sa nevzťahuje na už zľavnené produkty.",
+        "Pri nákupe v jednej z kamenných predajní Feedo zľavový kód nadiktujte priamo pri pokladni."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke feedo.sk si vyberte niektorý z kočíkov alebo autosedačiek a v košíku zadajte svoj zľavový kód. Zľava 15 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 15 % na nákup výbavičky pre bábätko",
+    "illustration": "large_zlavy_15",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 50, "baby": 50, "family": 50 },
+    "list": [
+      "online alebo v kamenných predajniach Feedo",
+      "zľava na kočík, autosedačku, monitor pohybu dychu, odsávačky mlieka, nosič a ďalšie"
+    ],
+    "detail": {
+      "advantages": [
+        "v spolupráci so značkou Feedo ponúkame našim poistencom zľavu na nákup prvej výbavičky online aj v kamenných predajniach",
+        "kombinovaný kočík, autosedačka, monitor pohybu dychu, video monitor alebo audio vysielačka, odsávačky mlieka a pomôcky pri dojčení, ergonomický nosič, sterilizátor, ohrievač fliaš a stravy alebo parný mixér"
+      ],
+      "attentions": [
+        "Zľava sa nevzťahuje na už zľavnené produkty.",
+        "Pri nákupe v jednej z kamenných predajní Feedo zľavový kód nadiktujte priamo pri pokladni."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke feedo.sk si vyberte produkty, ktoré potrebujete pre svoje bábätko. V košíku zadajte svoj zľavový kód. Zľava 15 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 15 % na nákup detského oblečenia",
+    "illustration": "large_zlavy_15",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 51, "baby": 51, "family": 51 },
+    "list": [
+      "online alebo v kamenných predajniach Feedo",
+      "široká kolekcia kvalitného detského oblečenia rôznych značiek",
+      "body, šaty, čiapky, svetríky aj overaly"
+    ],
+    "detail": {
+      "advantages": [
+        "pre našich poistencov máme zľavu na nákup zo širokej kolekcie kvalitného detského oblečenia rôznych značiek",
+        "kvalitné, bavlnené detské oblečenie",
+        "body a šaty, čiapky a letné klobúčiky s UV faktorom, košieľky, svetríky, letné aj zimné overaly"
+      ],
+      "attentions": [
+        "Zľavu si môžete uplatniť aj na už zľavnený tovar.",
+        "Pri nákupe v jednej z kamenných predajní Feedo zľavový kód nadiktujte priamo pri pokladni."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke feedo.sk si vyberte detské oblečenie a v košíku zadajte svoj zľavový kód. Zľava 15 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 25 % na filter na kočík",
+    "illustration": "large_zlavy_25",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 52, "baby": 52, "family": 52 },
+    "list": [
+      "Babywagen Covid Filter poslúži všetkým bábätkám približne do jedného roku",
+      "použiť sa dá opakovane v interiéri aj v exteriéri",
+      "vhodný do každého počasia"
+    ],
+    "detail": {
+      "advantages": [
+        "Babywagen Covid Filter poslúži všetkým bábätkám približne do jedného roku",
+        "bábätká môže ochrániť nielen pred aktuálnym koronavírusom, ale aj pred akýmkoľvek iným vírusom, baktériami, peľom, prachom a smogom",
+        "použiť sa dá opakovane v interiéri aj v exteriéri",
+        "vhodný do každého počasia"
+      ],
+      "attentions": [
+        "Zľava sa nevzťahuje na už zľavnené produkty.",
+        "Štandardná cena Babywagen Covid filtra je od 89 € do 109 €."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Na stránke carac.sk si vyberte preferovaný filter na kočík (Babywagen Covid Filter) a v košíku zadajte svoj zľavový kód. Zľava 25 % sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 30 % na kuchársku knihu Pestro a zdravšie",
+    "illustration": "large_zlavy_30",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 53, "adult": 53, "senior": 53 },
+    "list": [
+      "v kuchárskej knihe nájdete až 180 receptov",
+      "každý z receptov svoj bezlaktózový a bezlepkový variant"
+    ],
+    "detail": {
+      "advantages": [
+        "v kuchárskej knihe nájdete až 180 receptov na pestré raňajky, polievky, hlavné jedlá, šaláty či dezerty",
+        "každý recept je prirodzene bezlaktózový, a teda vhodný aj pre ľudí s intoleranciou na laktózu alebo s alergiou na mliečnu bielkovinu",
+        "okrem toho má každý z receptov svoj bezlepkový variant, preto je kniha vhodná aj pre celiatikov"
+      ],
+      "attentions": [
+        "Zľava platí len z pôvodnej ceny kuchárskej knihy pred akoukoľvek zľavou, ktorú poskytne predajca."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavu. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení IČP vás presmerujeme do webovej aplikácie.",
+            "Na stránke jemezdravo.sk vložte knihu do košíka a zadajte zľavový kód. Zľava vo výške 30 % sa vám automaticky odráta z ceny knihy."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "VIP nemocničné izby za polovičnú cenu",
+    "illustration": "large_VIP_izba",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 54, "senior": 54, "adult": 54, "family": 54 },
+    "list": [
+      "zľava 50 % na nadštandardné izby v sieti nemocníc Svet zdravia a ProCare Medissimo",
+      "platí, aj ak sú v izbe ubytovaní dvaja poistenci Dôvery",
+      "izba s chladničkou, TV, internetom a rýchlovarná kanvicou"
+    ],
+    "detail": {
+      "advantages": [
+        "Na výber 51 nadštandardných izieb",
+        "V sieti nemocníc Svet zdravia a ProCare Medissimo",
+        "2-lôžkové izby s vlastným sociálnym zariadením, sprchovým kútom, chladničkou, TV, internetom a rýchlovarnou kanvicou"
+      ],
+      "attentions": [
+        "Rovnaký benefit platí aj vtedy, ak sú v izbe ubytovaní dvaja poistenci Dôvery. ",
+        "Výnimkou sú nadštandardné izby na pediatrickom a novorodeneckom oddelení. Sprevádzajúci rodič platí poplatok v plnej výške. Ak je dieťa alebo rodič poistencom Dôvery, tak v polovičnej výške. Dieťa je v nadštandardnej izbe ubytované zadarmo."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Overte si v zozname, či sa v nemocnici a na oddelení, na ktorom budete hospitalizovaný, nachádza nadštandardná izba Dôvera.",
+            "Pri nástupe (pred plánovaným nástupom) do nemocnice sa informujte priamo na oddelení, či je izba dostupná.",
+            "Preukážte sa svojím preukazom poistenca.",
+            "Personál na oddelení vás bude informovať o výške úhrady. Poplatok za využitie služby uhradíte priamo nemocnici pri prepustení."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Lacnejšie kúpele",
+    "illustration": "large_lacnejsie_kupele",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 55, "senior": 55, "adult": 55, "family": 55 },
+    "list": [
+      "lacnejšie kúpele až o 13 % aj bez odporúčania od lekára",
+      "zľavy platia vo vybraných slovenských kúpeloch"
+    ],
+    "detail": {
+      "advantages": [
+        "lacnejšie kúpele až o 13 % aj bez odporúčania od lekára",
+        "zľavy platia vo vybraných slovenských kúpeloch",
+        "pri kúpe pobytu sa stačí preukázať kartičkou poistenca"
+      ],
+      "attentions": [
+        "Zľavy vo všetkých kúpeľoch nie je možné kumulovať s inými zľavami poskytovanými kúpeľmi."
+      ]
+    }
+  },
+  {
+    "title": "Mamografia do 10 dní",
+    "illustration": "il_large_mamografia",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 57, "adult": 57, "senior": 57 },
+    "list": [
+      "preventívna mamografia prednostne",
+      "pre poistenky od 40 do 69 rokov",
+      "objednanie osobne alebo telefonicky vo vybraných zariadeniach"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetky poistenky Dôvery vo veku od 40 do 69 rokov",
+        "Objednanie osobne alebo telefonicky priamo u nášho zmluvného partnera",
+        "Na mamografické vyšetrenie hradené zdravotnou poisťovňou majú ženy nárok raz za 2 roky, aj keď nemajú žiadne príznaky alebo bolesti"
+      ],
+      "attentions": [
+        "Ak užívate hormóny, máte v rodine niekoho, kto mal v minulosti rakovinu prsníka, alebo máte ťažko prehľadný mamografický obraz, môžete absolvovať mamografiu častejšie . Rozhodne o tom váš ošetrujúci lekár.",
+        "Na mamografické vyšetrenie potrebujete odporúčanie od gynekológa."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Navštívte vášho gynekológa a požiadajte ho o odporučenie na vyšetrenie.",
+            "Objednajte sa priamo u nášho zmluvného partnera. Aktuálny zoznam mamografov nájdete nižšie.",
+            "Mamografické pracovisko Vám ponúkne termín vyšetrenia do 10 pracovných dní. V prípade problémov s objednaním vyplňte, prosím, tento formulár.",
+            "Po vyšetrení Vám na mamografickom pracovisku oznámia termín vypracovania výsledkov. Odovzdajú vám ich spolu s lekárskou správou do vlastných rúk.",
+            "Výsledky odovzdajte svojmu gynekológovi, ktorý vyšetrenie vyhodnotí."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Bezplatné vyšetrenie rakoviny hrubého čreva",
+    "illustration": "large_vysetrenie_hrubeho_creva_1",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 60, "senior": 60, "adult": 60 },
+    "list": [
+      "bezbolestný test na zistenie okultného krvácania v stolici",
+      "pri preventívke raz za dva roky od 40 rokov"
+    ],
+    "detail": {
+      "advantages": [
+        "Zákonný nárok na bezplatné vyšetrenie je od veku 50 rokov, v Dôvere môžete toto vyšetrenie absolvovať bezplatne pri preventívke raz za 2 roky už po dovŕšení veku 40 rokov",
+        "Bezbolestný test je prevenciou a zistenie okultného (skrytého) krvácania v stolici"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Pri preventívnej prehliadke požiadajte svojho všeobecného lekára o bezplatný test na okultné krvácanie. Nárok naň máte 1x za 2 roky, ak ste dovŕšili vek 40 rokov.",
+            "Lekár vám poskytne nádobku, do ktorej si doma odoberiete vzorku stolice. Potom ju odnesiete späť svojmu všeobecnému lekárovi.",
+            "Lekár dokáže zo vzorky hneď určiť prítomnosť krvi v stolici. Ak je výsledok pozitívny, odporučí vám ďalšie potrebné vyšetrenia."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Nadštandardná starostlivosť pri výmene kĺbu",
+    "illustration": "large_nadstandartna_starostlivost_vymena_klbu_1",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 61, "adult": 61, "family": 61, "senior": 61 },
+    "list": [
+      "výmena bedrového alebo kolenného kĺbu",
+      "konzultácie s odborníkom a nadštandardná rehabilitačná starostlivosť",
+      "prednostné ambulantné hodiny na rehabilitáciu vo vybraných zariadeniach"
+    ],
+    "detail": {
+      "advantages": [
+        "Nadštandardné služby vo vybraných nemocniciach len poistenci Dôvery",
+        "Konzultácia s odborníkom na výmenu kĺbov a nadštandardná včasná rehabilitačná starostlivosť",
+        "Prednostné ambulantné hodiny na rehabilitáciu vo vybraných zariadeniach"
+      ],
+      "attentions": [
+        "Benefit sa týka len vybraných nemocníc Nemocnica AGEL Levice s.r.o. a Fakultná nemocnica AGEL Skalica a.s.",
+        "Nemocnica AGEL Levice s.r.o. zároveň ponúka zľava 50 % z aktuálnej cenníkovej ceny pri pobyte na nadštandardnom lôžku. Fakultná nemocnica AGEL Skalica a.s. zabezpečí bezplatnú dopravu pacienta pri prevoze na operáciu alebo pri prepustení domov."
+      ],
+      "more": {
+        "additionalContent": [
+          "Vyberte si niektorú z nemocníc, zavolajte im a dohodnite si termín ambulantnej rehabilitácie."
+        ]
+      }
+    }
+  },
+  {
+    "title": "Výhody pre darcov krvi",
+    "illustration": "large_darca_krvy",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 62, "adult": 62 },
+    "list": [
+      "balenie vitamínových doplnkov  po každom odbere",
+      "zľavy až do výšky 25 % na pobyt v najznámejších kúpeľoch Slovenska",
+      "projekt Moja krvná skupina"
+    ],
+    "detail": {
+      "advantages": [
+        "Poistenci, ktorí bezplatne darovali krv, získajú po každom odbere krvi vitamínový doplnok, ktorý pomáha k rýchlejšej regenerácii organizmu po darovaní krvi",
+        "Zľavy až do výšky 25 % v najznámejších kúpeľoch Slovenska zameraných na reumatické ochorenia (Piešťany a Smrdáky)",
+        "Spoločný projekt Dôvery a Slovenského Červeného kríža Moja krvná skupina pomáha hľadať darcov krvi pre konkrétnych pacientov a radí v otázkach darcovstva"
+      ],
+      "attentions": [
+        "Zľava sa nevzťahuje na pobyty, ktoré sú čiastočne hradené zdravotnou poisťovňou.",
+        "Každý poistenec má nárok na 1 balenie vitamínov za 1 odber."
+      ],
+      "more": {
+        "title": "Ako sa pridať k darcom krvi",
+        "additionalContent": [
+          "Život projektu sa odohráva najmä na sociálnej sieti Facebook.",
+          "Zaujímavé informácie o darovaní krvi a poradňu nájdete aj na webe mojakrvnaskupina.sk, kde sa môžete prihlásiť na odber newslettera pre darcov krvi. Niekoľkokrát v roku vám do e-mailovej schránky pošleme zaujímavé články o krvi a význame jej darovania."
+        ]
+      }
+    }
+  },
+  {
+    "title": "Príspevok až 80 % u nezmluvného lekára",
+    "illustration": "large_zlavy_80",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 63, "senior": 63, "adult": 63, "family": 63 },
+    "list": [
+      "vrátime vám 80 % z obvyklej ceny",
+      "dohodnite si termín u lekára a žiadosť nám doručte do 10 pracovných dní pred termínom"
+    ],
+    "detail": {
+      "advantages": [
+        "Vrátime vám 80 % z obvyklej ceny, teda z ceny, ktorú by sme za dané vyšetrenie zaplatili zmluvnému lekárovi",
+        "Príspevok môže dosiahnuť maximálne sumu, ktorú u lekára skutočne zaplatíte",
+        "K žiadosti je potrebné doplniť doklad o zaplatení s uvedením kódu výkonu a početnosti realizovaných výkonov, výmenný lístok, kópiu lekárskej správy a kópiu lekárskeho predpisu alebo poukazu "
+      ],
+      "attentions": [
+        "Žiadosť nám doručte najneskôr do 10 pracovných dní pred termínom.",
+        "Ak ste za ošetrenie alebo zákrok platili prevodom na bankový účet, budete potrebovať faktúru a potvrdenie úhrady bankovým prevodom."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Dohodnite si termín zákroku alebo ošetrenia a žiadosť o príspevok nám doručte najneskôr do 10 pracovných dní pred termínom.",
+            "Za ošetrenie zaplaťte priamo u lekára. Do roka od schválenia žiadosti nám doručte všetky potrebné doklady vo svojej pobočke alebo osobne v ktorejkoľvek pobočke Dôvery.",
+            "Pokladničný doklad musí obsahovať QR kód . Ak ste za ošetrenie alebo zákrok platili prevodom na bankový účet, budete potrebovať faktúru a potvrdenie úhrady bankovým prevodom.",
+            "Ak bude všetko v poriadku, peniaze vám pošleme do 30 pracovných dní od získania kompletnej dokumentácie."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Príspevok na dobrovoľné očkovania",
+    "illustration": "large_prispevok_na_ockovanie",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 64, "senior": 64, "adult": 64, "family": 64 },
+    "list": ["chrípka a kliešte", "hepatitída typu A a B, hepatitída A", "HPV"],
+    "detail": {
+      "advantages": [
+        "Poistencom preplácame alebo prispievame na viaceré dobrovoľné očkovania",
+        "Chrípka, kliešte, hepatitída typu A a B, hepatitída A ajHPV"
+      ],
+      "attentions": ["Každé očkovanie má svoje vlastné podmienky."],
+      "more": {
+        "additionalContent": [
+          "Na webe Dôvery nájdete postup na preplatenie príspevkov na dobrovoľné očkovania."
+        ]
+      }
+    }
+  },
+  {
+    "title": "Linka pre zdravie",
+    "illustration": "large_linka_pre_zdravie",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 65, "senior": 65, "adult": 65, "dovera": 65 },
+    "list": [
+      "bezplatné poradenstvo, platíte len cenu hovoru",
+      "pre poistencov od 18 rokov",
+      "rady o cukrovke, nadváhe, obezite, vysokom krvnom tlaku aj srdcovom zlyhávaní"
+    ],
+    "detail": {
+      "advantages": [
+        "Pre všetkých poistencov Dôvery starších ako 18 rokov",
+        "Pre ľudí s cukrovkou, nadváhou, obezitou, vysokým krvným tlakom alebo srdcovým zlyhávaním",
+        "Na Linke pre zdravie vám poradí jedna z našich skúsených odborníčok"
+      ],
+      "attentions": [
+        "Nemedicínske poradenstvo je bezplatné, platíte len cenu hovoru.",
+        "Ak má váš blízky niektoré z týchto ochorení a chcete mu pomôcť, môžete zavolať aj v jeho mene. Stále platí, že musí mať viac ako 18 rokov a byť poistencom Dôvery."
+      ],
+      "more": {
+        "title": "Ako linka funguje?",
+        "stepper": {
+          "steps": [
+            "Zavolajte na číslo 0850 850 888 a zadajte voľbu 2.",
+            "Nezabudnite mať poruke preukaz poistenca , aby sme vás mohli overiť.",
+            "Opýtajte sa na čokoľvek, čo vás o danom ochorení zaujíma."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Poradenstvo a vzdelávanie zdarma",
+    "illustration": "large_poradenstvo_a_vzdelavanie_zdarma",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 66, "senior": 66, "adult": 66, "dovera": 66 },
+    "list": [
+      "pre všetkých poistencov, ktorí sa liečia na cukrovku, nadváhu, obezitu, vysoký krvný tlak alebo srdcové zlyhávanie",
+      "vzdelávanie a podpora od skúsených edukátoriek",
+      "praktické tipy a triky, ako zvládať svoje ochorenie"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov, ktorí sa liečia na cukrovku, nadváhu, obezitu, vysoký krvný tlak alebo srdcové zlyhávanie",
+        "vzdelávanie a podpora od skúsených edukátoriek",
+        "praktické tipy a triky, ako zvládať svoje ochorenie"
+      ],
+      "attentions": ["Benefit nie je určený pre dlžníkov na poistnom."]
+    }
+  },
+  {
+    "title": "Pomáhame s nadváhou a obezitou",
+    "illustration": "il_large_overweight",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 67, "adult": 67, "dovera": 67, "senior": 67 },
+    "list": ["pre poistencov od 18 rokov", "pravidelné vzdelávanie so skúsenými špecialistkami"],
+    "detail": {
+      "advantages": [
+        "pre poistencov Dôvery, od 18 rokov, ktorých trápi nadváha alebo obezita",
+        "pomôžeme vám zorientovať sa v zmenách, pred ktorými stojíte, aby ste dosiahli a udržali svoj cieľ",
+        "pravidelné vzdelávanie so skúsenými špecialistkami"
+      ],
+      "attentions": [
+        "Pre poistencov, ktorí nemajú dlh na zdravotnom poistení.",
+        "Účasť v programe je bezplatná, stačí vyplniť online registráciu."
+      ]
+    }
+  },
+  {
+    "title": "Pomáhame so srdcom",
+    "illustration": "large_lludia_s_vysokym_krvnym_tlakom",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 68, "senior": 68, "adult": 68, "dovera": 68 },
+    "list": ["pre poistencov od 18 rokov", "pravidelné vzdelávanie so skúsenými špecialistkami"],
+    "detail": {
+      "advantages": [
+        "Pre poistencov Dôvery, od 18 rokov, ktorí majú vysoký krvný tlak alebo srdcové zlyhávanie",
+        "Problémy so srdcom nás môžu zastihnúť v akomkoľvek veku, no správnou životosprávou sa dajú liečiť",
+        "Pravidelné vzdelávanie so skúsenými špecialistkami"
+      ],
+      "attentions": [
+        "Pre poistencov, ktorí nemajú dlh na zdravotnom poistení.",
+        "Účasť v programe je bezplatná."
+      ],
+      "more": {
+        "additionalContent": ["Stačí vyplniť online registráciu."]
+      }
+    }
+  },
+  {
+    "title": "Pomáhame diabetikom",
+    "illustration": "large_pomahame_diabetikom",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 69, "senior": 69, "adult": 69, "dovera": 69 },
+    "list": [
+      "pre poistencov od 18 rokov",
+      "odborníci zadarmo naučia, ako žiť lepší život aj s cukrovkou",
+      "vzdelávanie, poradenstvo, zľava na jedálničky a knihy"
+    ],
+    "detail": {
+      "advantages": [
+        "špeciálny program DôveraPomáha diabetikom",
+        "vstúpiť môžu pacienti s diabetom 1. a 2. typu, pacienti s prediabetom, ženy s tehotenskou cukrovkou",
+        "bezplatné vzdelávanie a poradenstvo cez telefón, objednanie k vybraným lekárom, cvičenie aplikáciou Bodyfix.io zdarma"
+      ],
+      "attentions": [
+        "Ako sa prihlásiť do programu?",
+        "Udeľte súhlas pre vstup do programu vo svojej elektronickej pobočke",
+        "Zavolajte na linku pre zdravie 0850 850 888, voľba č. 2 (poradíme aj s registráciou do programu cez Elektronickú pobočku)",
+        "Vyplňte formulár na tejto stránke",
+        "Navštívte pobočku Dôvery",
+        "Požiadajte o registráciu diabetológa zapojeného do programu DôveraPomáha diabetikom",
+        "Prediabetikov môže registrovať všeobecný lekár zapojený do programu DôveraPomáha"
+      ]
+    }
+  },
+  {
+    "title": "Aplikácia s cvikmi pre diabetikov",
+    "illustration": "large_aplikacia_cviky_prediabetikov",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 70, "adult": 70, "senior": 70 },
+    "list": [
+      "bezplatná aplikácia BodyFix.io s jednoduchými videonávodmi",
+      "aplikácia prináša balík cvikov na každý deň",
+      "základné cviky vám pomôžu zlepšiť hybnosť a prekrvenie dolných končatín"
+    ],
+    "detail": {
+      "advantages": [
+        "Základné cviky vám pomôžu zlepšiť hybnosť, prekrvenie dolných končatín a pomocou nich dokážete predísť aj tzv. diabetickej nohe",
+        "Aplikácia prináša balík cvikov na každý deň",
+        "Cviky zostavili skúsení fyzioterapeuti"
+      ],
+      "attentions": [
+        "Každému poistencovi Dôvery pridelíme len jeden unikátny promo kód do aplikácie BodyFix.io."
+      ],
+      "more": {
+        "additionalContent": [
+          "Stiahnite si aplikáciu BodyFix.io v Google Play alebo App Store a zadajte vygenerovaný zľavový kód."
+        ]
+      }
+    }
+  },
+  {
+    "title": "Podpora duševného zdravia",
+    "illustration": "large_podpora_dusevneho_zdravia",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": true,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": true,
+      "medical_devices": false
+    },
+    "orders": { "all": 71, "senior": 71, "adult": 71 },
+    "list": [
+      "pre poistencov od 18 rokov",
+      "online konzultácie s psychológom alebo koučom",
+      "2 zľavové kupóny za kalendárny rok spolu v hodnote 30 €"
+    ],
+    "detail": {
+      "advantages": [
+        "online konzultácie s psychológom alebo koučom",
+        "riešenie osobného rozvoja, náročných životných situácií, stresu, úzkosti či depresie",
+        "termíny už do 1 hodiny"
+      ],
+      "attentions": ["Zľavový kód je potrebné použiť do 7 dní od jeho vygenerovania."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód Mojra, Hedepy alebo ksebe. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete vľavo dole na preukaze poistenca.",
+            "Po overení zadajte svoj mail, aby sme vám mohli poslať zľavový kód. Je potrebné ho použiť do 7 dní od vygenerovania. Ak kupón nestihnete využiť, kontaktujte priamo Mojra, Hedepy alebo ksebe.",
+            "Vytvorte si účet na webe Mojra, Hedepy alebo ksebe.",
+            "Pri rezervácii konzultácie zadajte zľavový kód."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Bojovníci za zdravie",
+    "illustration": "large_bojovnicizazdravie-61",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": false,
+      "dovera": true,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": true,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 73, "dovera": 5 },
+    "list": [
+      "finančný príspevok na akúkoľvek liečbu, ktorú zo zákona nepreplácame",
+      "rehabilitácie, operácie či zdravotnícke pomôcky",
+      "grantový program otvorený 2x do roka"
+    ],
+    "detail": {
+      "advantages": [
+        "Príspevok na akúkoľvek zdravotnú starostlivosť, ktorú zdravotná poisťovňa bežne neuhradí",
+        "Grantový program môžete využiť na pomoc pri riešení akéhokoľvek zdravotného problému bez ohľadu na vek či diagnózu",
+        "Môžete požiadať o čokoľvek, čo zlepší váš zdravotný stav"
+      ],
+      "attentions": [
+        "Za dieťa do 18 rokov a hendikepovaných poistencov môže žiadosť podať ich zákonný zástupca."
+      ],
+      "more": {
+        "title": "Ako získať príspevok",
+        "additionalContent": [
+          "Grantový program Bojovníci za zdravie otvárame dvakrát do roka. Každú žiadosť starostlivo posúdime, aby sme si boli istí, že sme vybrali tých, ktorí najviac potrebujú našu pomoc. Prejde rukami našich lekárov a farmaceutov, ale aj garantov z Nadácie pre deti Slovenska, ktorí majú s pomocou a s transparentným prerozdeľovaním financií viac ako 20-ročné skúsenosti.",
+          "Viac informácií na www.bojovnicizazdravie.sk."
+        ]
+      }
+    }
+  },
+  {
+    "title": "Inkluzívne ihriská",
+    "illustration": "large_bojovnicizazdravie-61",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": false,
+      "adult": false,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 74, "dovera": 74, "family": 74 },
+    "list": [
+      "bezberiérové a bezpečné ihriská vhodné aj pre deti so zdravotným znevýhodnením",
+      "prístupné povrchy a herné prvky prispôsobené deťom so špecifickými potrebami"
+    ],
+    "detail": {
+      "advantages": [
+        "bezberiérové a bezpečné ihriská vhodné aj pre deti so zdravotným znevýhodnením",
+        "prístupné povrchy a herné prvky prispôsobené deťom so špecifickými potrebami",
+        "prvé ihrisko otvorené v Bratislave na Budovateľskej ulici"
+      ]
+    }
+  },
+  {
+    "title": "Fyzio vyšetrenie online a zadarmo",
+    "illustration": "il_large_fyzio",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": true,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": true,
+      "doctor_online": true,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 5, "senior": 5, "adult": 2, "dovera": 2, "family": 75 },
+    "list": [
+      "pre poistencov od 18 rokov",
+      "vyriešte bolesti chrbta, svalov či kĺbov z pohodlia domova",
+      "liečba alebo cvičenia od lekára do 3 pracovných dní"
+    ],
+    "detail": {
+      "advantages": [
+        "pre poistencov od 18 rokov",
+        "vyriešte bolesti chrbta, svalov či kĺbov z pohodlia domova cez webovú aplikáciu AIP FYZIO",
+        "liečba alebo cvičenia od lekára do 3 pracovných dní až 3-krát za rok"
+      ],
+      "attentions": ["Benefit nie je určený pre dlžníkov na poistnom."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Zaregistrujte sa do webovej aplikácie AIP FYZIO.",
+            "Opíšte svoj problém a <b>vyplňte otázky</b> o príznakoch a zdravotnom stave.",
+            "Ak je to potrebné, lekár odporučí niektorý z voľnopredajných liekov, vystaví e-recept alebo poskytne individuálny cvičebný plán s inštrukciami a sériou videí.",
+            "Ak si váš problém vyžaduje návštevu ambulancie, pomôžeme vám s vybavením termínu.",
+            "Každý dotazník individuálne posudzuje lekár. <b>Do 3 pracovných dní</b> vám navrhne <b>liečbu na mieru</b>."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 50 % na streamovaciu platformu SWEET.TV",
+    "illustration": "large_vsetky_benefity",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 78, "adult": 78, "family": 78, "senior": 78 },
+    "list": [
+      "obľúbené filmy či seriály kedykoľvek a kdekoľvek",
+      "zľava na predplatné najväčšieho balíka služieb L"
+    ],
+    "detail": {
+      "advantages": [
+        "prístup ku viac ako <b>175 televíznym staniciam</b> (obľúbené slovenské a medzinárodné stanice) v <b>HD a 4K kvalite</b>",
+        "sledovanie video obsahu na <b>4 zariadeniach súčasne</b> (TV, mobil, tablet aj počítač)",
+        "<b>spätné prehrávanie</b> programov až <b>7 dní dozadu</b>"
+      ],
+      "attentions": [
+        "Zľava platí 12 mesiacov od aktivácie zľavového kódu.",
+        "Zľavový kód si môžete vygenerovať <b>raz za 12 mesiacov.</b>"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Zaregistrujte sa alebo sa prihláste do svojho účtu sweet.tv. V časti „Promo kódy“ <b>zadajte zľavový kód.</b>",
+            "Stiahnite si aplikáciu SWEET.TV aj do mobilu."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 10 % na plienky, kozmetiku a výživu značky BEBELO",
+    "illustration": "il_large_zlavy_10",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 79, "baby": 79 },
+    "list": [
+      "zľava na  široký sortiment výrobkov na každodennú starostlivosť o mamičky a bábätká",
+      "plienky, detská kozmetika, mliečna výživa, produkty pre mamičky",
+      "zľava platí v lekárňach a e-shope Dr. Max"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava na  široký sortiment výrobkov na každodennú starostlivosť o mamičky a bábätká",
+        "plienky, detská kozmetika, mliečna výživa, produkty pre mamičky"
+      ],
+      "attentions": [
+        "Zľavový kupón platí iba s vernostnou kartou Dr. Max CLUB a nie je možné ho kombinovať s inými ponukami a zľavami."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Kód stačí povedať lekárnikovi pri pokladni v ktorejkoľvek lekárni Dr. Max alebo zadať do poľa „Mám zľavový kód“ v e-shope www.drmax.sk . Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava na pôrodné programy Nateo v Nemocnici Bory",
+    "illustration": "large_nemocnica_bory",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 80, "baby": 3, "family": 80 },
+    "list": [
+      "pre tehotné poistenky Dôvery staršie ako 18 rokov",
+      "ušetrite až 300 € na programoch Nateo a Nateo Family",
+      "Programy zahŕňajú napr. prednostnú rezerváciu a garanciu termínu pôrodu, odbornú prípravu pre rodičov, samostatnú pôrodnú izbu, vlastnú izbu s TV, chladničkou a wifi, služby laktačnej poradkyne, skupinové cvičenia pred pôrodom s pôrodnou asistentkou, tehotenskú masáž či fotografovanie bábätka"
+    ],
+    "detail": {
+      "advantages": [
+        "pre tehotné poistenky Dôvery staršie ako 18 rokov",
+        "ušetrite až 300 € na programoch Nateo a Nateo Family",
+        "Program Nateo zahŕňa napr. prednostnú rezerváciu a garanciu termínu pôrodu, odbornú prípravu pre rodičov, samostatnú pôrodnú izbu, vlastnú izbu s TV, chladničkou a wifi, služby laktačnej poradkyne",
+        "Program Nateo Family poskytuje rozšírenú starostlivosť oproti programu Nateo: prítomnosť aj druhej sprevádzajúcej osoby, skupinové cvičenia pred pôrodom s pôrodnou asistentkou, tehotenská masáž či fotografovanie bábätka"
+      ],
+      "attentions": ["Benefit nie je určený pre dlžníkov na poistnom."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Na stránke Pôrodnice Bory si <b>vyberte program</b>, ktorý vám najviac vyhovuje a kliknite na tlačidlo „Rezervovať“.",
+            "Vyplňte <b>prihlasovací formulár</b>. Označte, že ste poistenkou Dôvery.",
+            "Po vyplnení údajov sa vám <b>zľava automaticky odráta</b>."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava 20 % na produkty pre novorodencov od značky Nuk",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 81, "baby": 6, "family": 81 },
+    "list": [
+      "zľava na široký sortiment produktov - dojčenské fľaše, cumlíky, hryzátka, odsávačky",
+      "zľava platí v lekárňach a e-shope Dr. Max"
+    ],
+    "detail": {
+      "advantages": [
+        "zľava na široký sortiment produktov - dojčenské fľaše, cumlíky, hryzátka, odsávačky",
+        "zľava platí v lekárňach a e-shope Dr. Max"
+      ],
+      "attentions": [
+        "Zľavový kupón platí iba s vernostnou kartou Dr. Max CLUB a nie je možné ho kombinovať s inými ponukami a zľavami."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavový kód. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme zľavový kód, ktorý si môžete skopírovať alebo poslať na mail.",
+            "Kód stačí povedať lekárnikovi pri pokladni v ktorejkoľvek lekárni Dr. Max alebo zadať do poľa „Mám zľavový kód“ v e-shope www.drmax.sk . Zľava sa vám automaticky odráta."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava do 30 % na cestovné poistenie",
+    "illustration": "large_zlavy_30",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": true,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 99, "senior": 99, "adult": 99, "family": 99 },
+    "list": [
+      "zľavy od poisťovne Generali až do 30 %",
+      "krátkodobé cestovné poistenie, študijné pobyty v zahraničí aj poistenie do hôr na Slovensku"
+    ],
+    "detail": {
+      "advantages": [
+        "zľavy od poisťovne Generali na cestovné poistenie a poistenie do hôr",
+        "30 % na krátkodobé cestovné poistenie, 15 % na ročné cestovné poistenie, 15 % na študijné pobyty v zahraničí, 15 % na poistenie do hôr na Slovensku"
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Vygenerujte si zľavu. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca.",
+            "Po overení vám zobrazíme odkaz, cez ktorý si môžete vybrať poistenie, o ktoré máte záujem. Výsledná suma v košíku už bude so zľavou.",
+            "Ak chcete poistenie využiť neskôr, skopírujte si link alebo si ho pošlite na mail."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Vrátime vám až 80 % za ošetrenie u nezmluvného lekára",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": true
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 6, "family": 5, "adult": 4, "senior": 6 },
+    "list": [
+      "príspevok vo výške 80 % z ceny, ktorú za zdravotnú starostlivosť hradí zdravotná poisťovňa",
+      "možno využiť, aby ste sa vyhli dlhej čakacej dobe alebo vo vašom regióne nie je dostupný zmluvný lekár"
+    ],
+    "detail": {
+      "advantages": [
+        "príspevok vo výške 80 % z ceny, ktorú za zdravotnú starostlivosť hradí zdravotná poisťovňa",
+        "možno využiť, aby ste sa vyhli dlhej čakacej dobe alebo vo vašom regióne nie je dostupný zmluvný lekár",
+        "najčastejšie preplácame: operáciu s implantáciou očných šošoviek pri sivom zákale, odstránenie znamienok na koži štandardou chirurgickou metódou, výkony jednodňovej zdravotnej starostlivosti zo zdravotných dôvodov, operáciu očných viečok zo zdravotných dôvodov, vyšetrenie na očnej ambulancii"
+      ],
+      "attentions": [
+        "Ak ste boli u nezmluvného zubára, o príspevok je možné požiadať cez benefit Zdravé zuby."
+      ],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Dohodnite si termín zákroku alebo ošetrenia a žiadosť o príspevok nám doručte najneskôr do 10 pracovných dní pred termínom.",
+            "Za ošetrenie zaplaťte priamo u lekára. Do roka od schválenia žiadosti nám doručte všetky potrebné doklady vo svojej e-pobočke alebo osobne v ktorejkoľvek pobočke Dôvery .",
+            "Pokladničný doklad musí obsahovať QR kód . Ak ste za ošetrenie alebo zákrok platili prevodom na bankový účet, budete potrebovať faktúru a potvrdenie úhrady bankovým prevodom .",
+            "Ak bude všetko v poriadku, peniaze vám pošleme do 30 pracovných dní od získania kompletnej dokumentácie."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava na výživu pre deti od značiek Hami a Nutrilon",
+    "illustration": "large_zlavy",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 82, "baby": 82 },
+    "list": [
+      "pre všetkých poistencov Dôvery",
+      "zľava na vybrané dojčenské mlieka, kašičky a príkrmy",
+      "zľava platí v e-shope Dr. Max"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery",
+        "zľava na vybrané dojčenské mlieka, kašičky a príkrmy",
+        "zľava platí v e-shope Dr. Max",
+        "<b>Raz ročne</b> môžete využiť zľavu 12 €  na nákup dojčenských mliek <b>Nutrilon</b> z produktovej rady Advanced a Profutura",
+        "<b>Dvakrát ročne</b> môžete využiť zľavu 10 € pri objednávke produktov <b>Hami</b> nad 30 €"
+      ],
+      "attentions": [
+        "Zľava neplatí na počiatočnú dojčenskú výživu s označením 1 a potraviny na osobitné lekárske účely."
+      ],
+      "more": {
+        "stepper": {
+          "stepsWithInfoBox": [
+            {
+              "content": "Vygenerujte si <b>zľavový kód</b>. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca."
+            },
+            {
+              "content": "Po overení vám zobrazíme zľavový kód, ktorý si môžete <b>skopírovať</b> alebo <b>poslať na mail</b>."
+            },
+            {
+              "content": "V e-shope www.drmax.sk vložte vybrané produkty do košíka a zadajte kód. Zľava sa vám automaticky odráta.",
+              "info": "Zľavový kupón platí iba <b>pre členov vernostného programu Dr. Max CLUB</b>. Pri nákupe online sa, prosím, prihláste do svojho profilu. Zľavu nie je možné kombinovať s inými ponukami."
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Zľava do 20 % na produkty Sudocrem, Bepanthen a Kamistad",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": false,
+      "baby": true,
+      "adult": false,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": false,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 83, "baby": 83 },
+    "list": [
+      "pre všetkých poistencov Dôvery",
+      "zľava na vybrané produkty platí v e-shope a v sieti lekární Dr. Max"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery",
+        "zľava na vybrané produkty platí v e-shope a v sieti lekární Dr. Max",
+        "produkty sú vhodné pre citlivú detskú pokožku a ústnu dutinu"
+      ],
+      "attentions": [
+        "Zľava platí na nákup produktov s označením Sudocrem MULTI-EXPERT, Bepanthen (balenie 30g, 100 g alebo 2 x 100 g), Kamistad Baby HA gél (20 ml), Kamistad senzitiv gél (10 g) a Kamistad ústny sprej (20 ml)."
+      ],
+      "more": {
+        "stepper": {
+          "stepsWithInfoBox": [
+            {
+              "content": "Vygenerujte si <b>zľavový kód</b>. Stačí, ak zadáte svoje IČP (identifikačné číslo poistenca), ktoré nájdete na preukaze poistenca."
+            },
+            {
+              "content": "Po overení vám zobrazíme zľavový kód, ktorý si môžete <b>skopírovať</b> alebo <b>poslať na mail</b>."
+            },
+            {
+              "content": "Kód stačí <b>povedať lekárnikovi</b> pri pokladni v ktorejkoľvek lekárni Dr. Max alebo <b>zadať do poľa „Mám zľavový kód“</b> v e-shope www.drmax.sk. Zľava sa vám automaticky odráta.",
+              "info": "Zľavový kupón platí iba <b>pre členov vernostného programu Dr. Max CLUB</b>. Pri nákupe online sa, prosím, prihláste do svojho profilu. Zľavu nie je možné kombinovať s inými ponukami."
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "title": "Prednostné objednanie na MR, RTG, sono a mamografiu",
+    "illustration": "large_zlavy_20",
+    "segments": {
+      "all": true,
+      "senior": true,
+      "baby": false,
+      "adult": true,
+      "dovera": false,
+      "family": false
+    },
+    "categories": {
+      "healthy_lifestyle": false,
+      "doctor_online": false,
+      "living_diagnosis": false,
+      "travel_relax": false,
+      "visit_doctor": true,
+      "mental_health": false,
+      "medical_devices": false
+    },
+    "orders": { "all": 84, "senior": 84, "adult": 84 },
+    "list": [
+      "pre všetkých poistencov Dôvery",
+      "naším poistencom zabezpečíme rýchly termín v Poliklinike Bezručova v Bratislave"
+    ],
+    "detail": {
+      "advantages": [
+        "pre všetkých poistencov Dôvery",
+        "naším poistencom zabezpečíme rýchly termín v Poliklinike Bezručova v Bratislave",
+        "MR vyšetrenie do 14 kalendárnych dní, mamografia do 48 hodín, sonografia do 48 hodín, RTG (röntgen) do 48 hodín"
+      ],
+      "attentions": ["Na vyšetrenie je potrebný výmenný lístok."],
+      "more": {
+        "stepper": {
+          "steps": [
+            "Objednať na prednostné vyšetrenie sa môžete online alebo osobne.",
+            "Ak sa chcete objednať online, na stránke polikliniky vyplňte online formulár. Vyberte, že ste poistencom Dôvery.",
+            "Ak sa budete objednávať osobne, pri objednávaní sa preukážte preukazom poistenca. Stačí aj preukaz v mobilnej apke.",
+            "Pri osobnom objednaní vás koordinátorka polikliniky objedná hneď. Pri online objednaní sa vám koordinátorka ozve do 1 pracovného dňa."
+          ]
+        }
+      }
+    }
+  }
+]
