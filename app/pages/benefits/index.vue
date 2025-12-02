@@ -3,7 +3,7 @@ import { getPaginationRowModel } from '@tanstack/vue-table'
 import { UBadge } from '#components'
 import type { ContextMenuItem, TableRow } from '@nuxt/ui'
 
-const { data: benefits, status, refresh, error } = await useBenefits()
+const { data: benefits, status, refresh, error } = useBenefits()
 
 const tableData = computed(() => {
     return (benefits.value ?? []).map((item) => ({
