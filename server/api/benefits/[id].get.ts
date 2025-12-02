@@ -2,7 +2,7 @@ import benefits from '@@/data/benefits.json'
 import type { Benefit } from '@/types/benefitType'
 import { slugify } from '@/utils/slug'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler((event) => {
     const benefitId = getRouterParam(event, 'id')
 
     if (!benefitId) {
