@@ -2,12 +2,17 @@ import benefits from '@@/data/benefits.json'
 import type { Benefit } from '@/types/benefitType'
 import { slugify } from '@/utils/slug'
 
-export default defineEventHandler<Benefit>((event) => {
-    const idParam = getRouterParam(event, 'id')
-    const id = idParam
+export default defineEventHandler(async (event) => {
+    const benefitId = getRouterParam(event, 'id')
 
-    const allBenefits = benefits as Benefit[]
-    const benefit = allBenefits.find((b) => slugify(b.title) === id)
+    if (!benefitId) {
+        throw createError({
+            statusCode: 400,
+            statusMessage: 'Missing benefit identifier',
+        })
+    }
+
+    const benefit = (benefits as Benefit[]).find((item) => slugify(item.title) === benefitId)
 
     if (!benefit) {
         throw createError({
