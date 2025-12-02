@@ -31,7 +31,7 @@ const columns = [
         header: 'Názov',
     },
     {
-        accesorKey: 'segments',
+        accessorKey: 'segments',
         header: 'Segmenty',
         cell: ({ row }: { row: { original: TableBenefit } }) => {
             const segments = row.original.segments

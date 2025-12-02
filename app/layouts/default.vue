@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import type { NavigationMenuItem } from '@nuxt/ui'
 
 const open = ref(false)
@@ -44,38 +43,36 @@ const links = [
 </script>
 
 <template>
-    <UApp>
-        <UDashboardGroup unit="rem" storage="local">
-            <UDashboardSidebar
-                v-model:open="open"
-                collapsible
-                resizable
-                class="bg-elevated/25"
-                :ui="{ footer: 'lg:border-t lg:border-default' }"
-            >
-                <template #header="{ collapsed }"><h1 v-if="!collapsed">Admin</h1></template>
+    <UDashboardGroup unit="rem" storage="local">
+        <UDashboardSidebar
+            v-model:open="open"
+            collapsible
+            resizable
+            class="bg-elevated/25"
+            :ui="{ footer: 'lg:border-t lg:border-default' }"
+        >
+            <template #header="{ collapsed }"><h1 v-if="!collapsed">Admin</h1></template>
 
-                <template #default="{ collapsed }">
-                    <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip popover />
-                </template>
+            <template #default="{ collapsed }">
+                <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip popover />
+            </template>
 
-                <template #footer="{ collapsed }">
-                    <UserMenu :collapsed="collapsed" />
-                </template>
-            </UDashboardSidebar>
+            <template #footer="{ collapsed }">
+                <UserMenu :collapsed="collapsed" />
+            </template>
+        </UDashboardSidebar>
 
-            <UDashboardPanel>
-                <template #header>
-                    <UDashboardNavbar :ui="{ right: 'gap-3' }">
-                        <template #leading>
-                            <UDashboardSidebarCollapse />
-                        </template>
-                    </UDashboardNavbar>
-                </template>
-                <template #body>
-                    <NuxtPage />
-                </template>
-            </UDashboardPanel>
-        </UDashboardGroup>
-    </UApp>
+        <UDashboardPanel>
+            <template #header>
+                <UDashboardNavbar :ui="{ right: 'gap-3' }">
+                    <template #leading>
+                        <UDashboardSidebarCollapse />
+                    </template>
+                </UDashboardNavbar>
+            </template>
+            <template #body>
+                <NuxtPage />
+            </template>
+        </UDashboardPanel>
+    </UDashboardGroup>
 </template>
