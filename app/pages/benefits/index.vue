@@ -67,7 +67,7 @@ function contextMenuOptions(row: TableRow<TableBenefit>) {
         {
             label: 'Open',
             onSelect() {
-                console.log('Open', slugify(row.original.title))
+                navigateTo(`/benefits/${slugify(row.original.title)}`)
             },
         },
     ]

@@ -1,4 +1,5 @@
 import benefits from '@@/data/benefits.json'
+import type { Benefit } from '@/types/benefitType'
 
 export default defineEventHandler(async () => {
     if (!benefits.length) {
@@ -7,5 +8,5 @@ export default defineEventHandler(async () => {
             statusMessage: 'Benefits not found',
         })
     }
-    return benefits
+    return benefits as Benefit[]
 })
