@@ -8,17 +8,13 @@ const links = [
         {
             label: 'Home',
             icon: 'i-lucide-house',
-            to: '/',
-            onSelect: () => {
-                open.value = false
-            },
+            to: '/'
         },
         {
             label: 'Benefits',
             icon: 'material-symbols:article-outline',
-            to: '/benefits',
-            onSelect: () => {
-                open.value = false
+            to: {
+                name: 'benefits'
             },
         },
         {
@@ -30,11 +26,10 @@ const links = [
             children: [
                 {
                     label: 'General',
-                    to: '/settings',
-                    exact: true,
-                    onSelect: () => {
-                        open.value = false
+                    to: {
+                        name: 'settings'
                     },
+                    exact: true
                 },
             ],
         },

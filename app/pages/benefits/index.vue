@@ -67,7 +67,10 @@ function contextMenuOptions(row: TableRow<TableBenefit>) {
         {
             label: 'Open',
             onSelect() {
-                navigateTo(`/benefits/${slugify(row.original.title)}`)
+                navigateTo({
+                    name: 'benefits-id',
+                    params: { id: slugify(row.original.title) },
+                })
             },
         },
     ]

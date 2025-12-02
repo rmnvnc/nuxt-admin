@@ -28,7 +28,9 @@ const items = computed<DropdownMenuItem[][]>(() => [
         {
             label: 'Settings',
             icon: 'i-lucide-settings',
-            to: '/settings',
+            to: {
+                name: 'settings'
+            },
         },
     ],
     [
