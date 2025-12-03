@@ -1,4 +1,5 @@
-export type SegmentKey = 'all' | 'senior' | 'baby' | 'adult' | 'dovera' | 'family'
+export const SEGMENT_KEYS = ['all', 'senior', 'baby', 'adult', 'dovera', 'family'] as const
+export type SegmentKey = (typeof SEGMENT_KEYS)[number]
 
 export interface DetailSections {
     advantages: string[]
