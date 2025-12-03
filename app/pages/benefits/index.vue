@@ -2,6 +2,7 @@
 import { getPaginationRowModel } from '@tanstack/vue-table'
 import { UBadge } from '#components'
 import type { ContextMenuItem, TableRow } from '@nuxt/ui'
+import type { Benefit } from '~/types/benefitType'
 
 const { data: benefits, status, refresh, error } = useBenefits()
 
@@ -9,6 +10,7 @@ const tableData = computed(() => {
     return (benefits.value ?? []).map((item) => ({
         title: item.title,
         segments: item.segments,
+        id: item.id,
     }))
 })
 
@@ -20,10 +22,7 @@ watch(tableFilter, () => {
     pagination.value.pageIndex = 0
 })
 
-type TableBenefit = {
-    title: string
-    segments: Record<string, boolean>
-}
+type TableBenefit = Pick<Benefit, 'id' | 'title' | 'segments'>
 
 const columns = [
     {
@@ -69,7 +68,7 @@ function contextMenuOptions(row: TableRow<TableBenefit>) {
             onSelect() {
                 navigateTo({
                     name: 'benefits-id',
-                    params: { id: slugify(row.original.title) },
+                    params: { id: row.original.id },
                 })
             },
         },

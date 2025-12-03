@@ -8,28 +8,27 @@ const links = [
         {
             label: 'Home',
             icon: 'i-lucide-house',
-            to: '/'
+            to: '/',
         },
         {
             label: 'Benefits',
             icon: 'material-symbols:article-outline',
             to: {
-                name: 'benefits'
+                name: 'benefits',
             },
         },
         {
             label: 'Settings',
             to: '/settings',
             icon: 'i-lucide-settings',
-            defaultOpen: true,
             type: 'trigger',
             children: [
                 {
                     label: 'General',
                     to: {
-                        name: 'settings'
+                        name: 'settings',
                     },
-                    exact: true
+                    exact: true,
                 },
             ],
         },
@@ -49,7 +48,7 @@ const links = [
             <template #header="{ collapsed }"><h1 v-if="!collapsed">Admin</h1></template>
 
             <template #default="{ collapsed }">
-                <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" tooltip popover />
+                <UNavigationMenu :collapsed="collapsed" :items="links" orientation="vertical" tooltip popover />
             </template>
 
             <template #footer="{ collapsed }">

@@ -14,7 +14,7 @@ export default defineEventHandler(() => {
     // pridávam id =´index
     const withIds: Benefit[] = list.map((item, index) => ({
         ...item,
-        id: String(index),
+        id: Number(index),
     }))
 
     return withIds
