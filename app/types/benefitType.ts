@@ -26,6 +26,7 @@ type CategoryKey =
     | 'medical_devices'
 
 export interface Benefit {
+    id?: string
     title: string
     illustration: string
     segments: Record<SegmentKey, boolean>

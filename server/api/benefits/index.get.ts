@@ -1,4 +1,21 @@
 import benefits from '@@/data/benefits.json'
 import type { Benefit } from '@/types/benefitType'
 
-export default defineEventHandler(() => benefits as Benefit[])
+export default defineEventHandler(() => {
+    const list = benefits as Benefit[]
+
+    if (!list.length) {
+        throw createError({
+            statusCode: 404,
+            statusMessage: 'Benefits not found',
+        })
+    }
+
+    // pridávam id =´index
+    const withIds: Benefit[] = list.map((item, index) => ({
+        ...item,
+        id: String(index),
+    }))
+
+    return withIds
+})
