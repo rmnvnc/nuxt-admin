@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { SEGMENT_KEYS, type Benefit, type SegmentKey } from '@/types/benefitType'
+import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '@/types/benefitType'
 import type { NuxtError } from '#app'
 
 const toast = useToast()
@@ -32,49 +32,59 @@ const save = async () => {
         toast.add({
             title: 'Uložené',
             description: 'Benefit bol úspešne uložený',
+            color: 'success',
         })
     } catch (e: unknown) {
         const err = e as NuxtError
         toast.add({
             title: 'Chyba',
             description: err.statusMessage || 'Unknown error',
+            color: 'error',
         })
     } finally {
         isSaving.value = false
     }
 }
 
+const createBooleanRecordModel = <K extends string>(keys: readonly K[], field: 'segments' | 'categories') =>
+    computed<K[]>({
+        get() {
+            if (!benefitForm.value) return []
+
+            const record = benefitForm.value[field] as Record<K, boolean> | undefined
+            if (!record) return []
+
+            return keys.filter((key) => record[key])
+        },
+        set(selected) {
+            if (!benefitForm.value) return
+
+            const next = {} as Record<K, boolean>
+
+            for (const key of keys) {
+                next[key] = selected.includes(key)
+            }
+
+            ;(benefitForm.value as any)[field] = next
+        },
+    })
+
 const segmentItems = computed(() =>
     SEGMENT_KEYS.map((key) => ({
+        label: key, // prípadne tu urobíš pekné preklady/labely
+        value: key,
+    })),
+)
+
+const categoryItems = computed(() =>
+    CATEGORY_KEYS.map((key) => ({
         label: key,
         value: key,
     })),
 )
 
-const segmentModel = computed<SegmentKey[]>({
-    get() {
-        if (!benefitForm.value) return []
-        return SEGMENT_KEYS.filter((key) => benefitForm.value?.segments?.[key])
-    },
-    set(selected) {
-        if (!benefitForm.value) return []
-
-        const next: Record<SegmentKey, boolean> = {
-            all: false,
-            senior: false,
-            baby: false,
-            adult: false,
-            dovera: false,
-            family: false,
-        }
-
-        for (const key of SEGMENT_KEYS) {
-            next[key] = selected.includes(key)
-        }
-
-        benefitForm.value.segments = next
-    },
-})
+const segmentModel = createBooleanRecordModel<SegmentKey>(SEGMENT_KEYS, 'segments')
+const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'categories')
 </script>
 <template>
     <section>
@@ -90,6 +100,15 @@ const segmentModel = computed<SegmentKey[]>({
                 <UCheckboxGroup
                     v-model="segmentModel"
                     :items="segmentItems"
+                    variant="list"
+                    orientation="horizontal"
+                    :disabled="isSaving"
+                />
+            </UFormField>
+            <UFormField label="Categories" class="mb-4">
+                <UCheckboxGroup
+                    v-model="categoryModel"
+                    :items="categoryItems"
                     variant="list"
                     orientation="horizontal"
                     :disabled="isSaving"

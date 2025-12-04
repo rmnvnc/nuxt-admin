@@ -2,7 +2,7 @@
 import { getPaginationRowModel } from '@tanstack/vue-table'
 import { UBadge } from '#components'
 import type { ContextMenuItem, TableRow } from '@nuxt/ui'
-import type { Benefit } from '~/types/benefitType'
+import type { Benefit, SegmentKey } from '@/types/benefitType'
 
 const { data: benefits, status, refresh, error } = useBenefits()
 
@@ -34,7 +34,7 @@ const columns = [
         header: 'Segmenty',
         cell: ({ row }: { row: { original: TableBenefit } }) => {
             const segments = row.original.segments
-            const active = Object.keys(segments).filter((key) => segments[key] && key !== 'all')
+            const active = (Object.keys(segments) as SegmentKey[]).filter((key) => segments[key] && key !== 'all')
 
             return h(
                 'div',
