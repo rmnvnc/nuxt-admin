@@ -3,6 +3,7 @@ import { useRoute } from 'vue-router'
 import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '@/types/benefitType'
 import type { NuxtError } from '#app'
 import StringListField from '@/components/BenefitEditor/StringListField.vue'
+
 const toast = useToast()
 const route = useRoute()
 const { data: benefit, status, error } = useBenefit(route.params.id as string)
@@ -91,51 +92,89 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
         <template v-if="status === 'pending'"> Načítavam detail… </template>
         <template v-else-if="error"> Nepodarilo sa načítať benefit. {{ error?.message }} </template>
         <template v-else-if="benefitForm">
-            <b>Original title:</b> {{ benefit?.title }}<br />
-            <b>Edited title:</b> {{ benefitForm.title }}<br />
-            <UFormField label="Title" class="mb-4">
-                <UInput v-model="benefitForm.title" type="text" class="w-full" :disabled="isSaving" />
-            </UFormField>
-            <UFormField label="Segments" class="mb-4">
-                <UCheckboxGroup
-                    v-model="segmentModel"
-                    :items="segmentItems"
-                    variant="list"
-                    orientation="horizontal"
-                    :disabled="isSaving"
-                />
-            </UFormField>
-            <UFormField label="Categories" class="mb-4">
-                <UCheckboxGroup
-                    v-model="categoryModel"
-                    :items="categoryItems"
-                    variant="list"
-                    orientation="horizontal"
-                    :disabled="isSaving"
-                />
-            </UFormField>
-            <StringListField v-model="benefitForm.list" :disabled="isSaving" label="Zoznam bodov" />
-            <StringListField
-                v-if="benefitForm.detail.advantages"
-                v-model="benefitForm.detail.advantages"
-                label="Výhody (advantages)"
-                :disabled="isSaving"
-            />
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="order-2 lg:order-none w-full lg:max-w-[700px]">
+                    <b>Original title:</b> {{ benefit?.title }}<br />
+                    <b>Edited title:</b> {{ benefitForm.title }}<br />
+                    <UFormField
+                        label="Title"
+                        class="mb-8"
+                        :ui="{
+                            labelWrapper: 'mb-4',
+                        }"
+                    >
+                        <UInput v-model="benefitForm.title" type="text" class="w-full" :disabled="isSaving" />
+                    </UFormField>
+                    <UFormField
+                        label="Segments"
+                        class="mb-8"
+                        :ui="{
+                            labelWrapper: 'mb-4',
+                        }"
+                    >
+                        <UCheckboxGroup
+                            v-model="segmentModel"
+                            :items="segmentItems"
+                            variant="list"
+                            orientation="horizontal"
+                            :disabled="isSaving"
+                            :ui="{
+                                fieldset: 'flex flex-wrap gap-4',
+                            }"
+                        />
+                    </UFormField>
+                    <UFormField
+                        label="Categories"
+                        class="mb-8"
+                        :ui="{
+                            labelWrapper: 'mb-4',
+                        }"
+                    >
+                        <UCheckboxGroup
+                            v-model="categoryModel"
+                            :items="categoryItems"
+                            variant="list"
+                            orientation="horizontal"
+                            :disabled="isSaving"
+                            :ui="{
+                                fieldset: 'flex flex-wrap gap-4',
+                            }"
+                        />
+                    </UFormField>
+                    <StringListField
+                        v-model="benefitForm.list"
+                        :rows="benefitForm.list.length"
+                        :disabled="isSaving"
+                        label="Zoznam bodov"
+                    />
+                    <StringListField
+                        v-if="benefitForm.detail.advantages"
+                        v-model="benefitForm.detail.advantages"
+                        label="Výhody (advantages)"
+                        :rows="benefitForm.detail.advantages.length"
+                        :disabled="isSaving"
+                    />
 
-            <StringListField
-                v-if="benefitForm.detail.attentions"
-                v-model="benefitForm.detail.attentions"
-                label="Upozornenia (attentions)"
-                :disabled="isSaving"
-            />
+                    <StringListField
+                        v-if="benefitForm.detail.attentions"
+                        v-model="benefitForm.detail.attentions"
+                        label="Upozornenia (attentions)"
+                        :rows="benefitForm.detail.attentions.length"
+                        :disabled="isSaving"
+                    />
 
-            <StringListField
-                v-if="benefitForm.detail.more?.stepper?.steps"
-                v-model="benefitForm.detail.more.stepper.steps"
-                label="Kroky postupu (more.stepper.steps)"
-                :disabled="isSaving"
-            />
-            <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
+                    <StringListField
+                        v-if="benefitForm.detail.more?.stepper?.steps"
+                        v-model="benefitForm.detail.more.stepper.steps"
+                        label="Stepper (more.stepper.steps)"
+                        :rows="benefitForm.detail.more.stepper.steps.length"
+                        :disabled="isSaving"
+                    />
+                </div>
+                <div class="order-1 lg:order-none flex-1">
+                    <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
+                </div>
+            </div>
         </template>
     </section>
 </template>
