@@ -2,7 +2,7 @@
 import { useRoute } from 'vue-router'
 import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '@/types/benefitType'
 import type { NuxtError } from '#app'
-
+import StringListField from '@/components/BenefitEditor/StringListField.vue'
 const toast = useToast()
 const route = useRoute()
 const { data: benefit, status, error } = useBenefit(route.params.id as string)
@@ -114,6 +114,27 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
                     :disabled="isSaving"
                 />
             </UFormField>
+            <StringListField v-model="benefitForm.list" :disabled="isSaving" label="Zoznam bodov" />
+            <StringListField
+                v-if="benefitForm.detail.advantages"
+                v-model="benefitForm.detail.advantages"
+                label="Výhody (advantages)"
+                :disabled="isSaving"
+            />
+
+            <StringListField
+                v-if="benefitForm.detail.attentions"
+                v-model="benefitForm.detail.attentions"
+                label="Upozornenia (attentions)"
+                :disabled="isSaving"
+            />
+
+            <StringListField
+                v-if="benefitForm.detail.more?.stepper?.steps"
+                v-model="benefitForm.detail.more.stepper.steps"
+                label="Kroky postupu (more.stepper.steps)"
+                :disabled="isSaving"
+            />
             <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
         </template>
     </section>
