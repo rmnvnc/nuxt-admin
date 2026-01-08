@@ -2,6 +2,7 @@
     "name": "nuxt-admin",
     "type": "module",
     "private": true,
+    "packageManager": "pnpm@10.27.0",
     "scripts": {
         "build": "nuxi build",
         "dev": "nuxi dev",
@@ -12,7 +13,7 @@
         "typecheck": "nuxi typecheck",
         "format": "prettier --check .",
         "format:fix": "prettier --write .",
-        "dev:checkup": "npm run lint && npm run format:fix && nuxi typecheck"
+        "dev:checkup": "pnpm run lint && pnpm run format:fix && nuxi typecheck"
     },
     "dependencies": {
         "@nuxt/ui": "^4.2.1",
@@ -27,6 +28,7 @@
         "eslint": "^9.39.1",
         "nuxi": "^3.30.0",
         "prettier": "^3.6.2",
+        "tailwindcss": "^4.1.18",
         "typescript": "^5.9.3",
         "vue-tsc": "^3.1.5"
     }
