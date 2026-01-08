@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
 import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '@/types/benefitType'
 import type { NuxtError } from '#app'
 import StringListField from '@/components/BenefitEditor/StringListField.vue'
+import BenefitIllustrationSelect from '~/components/BenefitEditor/BenefitIllustrationSelect.vue'
 
 const toast = useToast()
 const route = useRoute()
@@ -66,7 +66,7 @@ const createBooleanRecordModel = <K extends string>(keys: readonly K[], field: '
                 next[key] = selected.includes(key)
             }
 
-            ;(benefitForm.value as any)[field] = next
+            ;(benefitForm.value as Record<string, unknown>)[field] = next
         },
     })
 
@@ -93,9 +93,12 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
         <template v-else-if="error"> Nepodarilo sa načítať benefit. {{ error?.message }} </template>
         <template v-else-if="benefitForm">
             <div class="flex flex-col lg:flex-row gap-8">
-                <div class="order-2 lg:order-none w-full lg:max-w-[700px]">
-                    <b>Original title:</b> {{ benefit?.title }}<br />
-                    <b>Edited title:</b> {{ benefitForm.title }}<br />
+                <div class="order-2 lg:order-0 w-full lg:max-w-[700px]">
+                    <BenefitIllustrationSelect
+                        v-if="benefitForm?.illustration"
+                        v-model="benefitForm.illustration"
+                        class="mb-8"
+                    />
                     <UFormField
                         label="Title"
                         class="mb-8"
@@ -171,7 +174,7 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
                         :disabled="isSaving"
                     />
                 </div>
-                <div class="order-1 lg:order-none flex-1">
+                <div class="order-1 lg:order-0 flex-1">
                     <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
                 </div>
             </div>
