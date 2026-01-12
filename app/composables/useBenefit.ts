@@ -1,4 +1,4 @@
-import type { Benefit } from '@/types/benefitType'
+import type { Benefit } from '~/types/benefit'
 
 export const useBenefit = (id: string) => {
     return useFetch<Benefit>(() => `/api/benefits/${id}`, {

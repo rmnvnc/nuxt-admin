@@ -1,5 +1,5 @@
 import benefits from '@@/data/benefits.json'
-import type { Benefit } from '@/types/benefitType'
+import type { Benefit } from '~/types/benefit'
 
 export default defineEventHandler((event) => {
     const benefitId = Number(getRouterParam(event, 'id'))

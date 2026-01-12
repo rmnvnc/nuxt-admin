@@ -1,5 +1,5 @@
 import benefits from '@@/data/benefits.json'
-import type { Benefit } from '@/types/benefitType'
+import type { Benefit } from '~/types/benefit'
 
 export default defineEventHandler(() => {
     const list = benefits as Benefit[]

@@ -1,4 +1,4 @@
-import type { Benefit } from '@/types/benefitType'
+import type { Benefit } from '~/types/benefit'
 import benefits from '@@/data/benefits.json'
 
 export default defineEventHandler(async (event) => {

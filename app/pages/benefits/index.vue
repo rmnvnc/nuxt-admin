@@ -2,7 +2,7 @@
 import { getPaginationRowModel } from '@tanstack/vue-table'
 import { UBadge } from '#components'
 import type { ContextMenuItem, TableRow } from '@nuxt/ui'
-import type { Benefit, SegmentKey } from '@/types/benefitType'
+import type { Benefit, SegmentKey } from '~/types/benefit'
 
 const { data: benefits, status, refresh, error } = useBenefits()
 

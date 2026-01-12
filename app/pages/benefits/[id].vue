@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '@/types/benefitType'
+import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type SegmentKey } from '~/types/benefit'
 import type { NuxtError } from '#app'
 import StringListField from '@/components/BenefitEditor/StringListField.vue'
 import BenefitIllustrationSelect from '~/components/BenefitEditor/BenefitIllustrationSelect.vue'
