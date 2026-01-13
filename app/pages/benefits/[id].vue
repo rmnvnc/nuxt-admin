@@ -175,10 +175,14 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
                         :disabled="isSaving"
                     />
 
-                    <BlockEditor v-if="benefitForm.contentBlocks" v-model="benefitForm.contentBlocks" />
+                    <BlockEditor
+                        v-if="benefitForm.contentBlocks"
+                        v-model="benefitForm.contentBlocks"
+                        label="Block Editor"
+                    />
                 </div>
                 <div class="order-1 lg:order-0 flex-1">
-                    <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
+                    <UButton :disabled="isSaving" class="sticky top-0" @click="save">Uložiť</UButton>
                 </div>
             </div>
         </template>

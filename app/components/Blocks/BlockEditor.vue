@@ -29,9 +29,9 @@ function addBlock(type: BlockType) {
 </script>
 
 <template>
-    <div v-if="label">
+    <h2 v-if="label" class="text-2xl font-bold mb-4">
         {{ label }}
-    </div>
+    </h2>
 
     <UModal v-model:open="isAddOpen" title="Add block">
         <template #body>
