@@ -41,7 +41,35 @@
           ]
         }
       }
-    }
+    },
+    "contentBlocks": [
+            {
+                "id": "b_xxxxx",
+                "type": "card",
+                "data": {
+                    "title": "Kontakt",
+                    "desc": "Napíš nám…"
+                }
+            },
+            {
+                "id": "b_yyyyy",
+                "type": "twoColumn",
+                "data": {
+                    "leftColumn": [
+                        {
+                            "id": "b_xxxxx",
+                            "type": "card",
+                            "data": {
+                                "title": "Kontakt",
+                                "desc": "Napíš nám…"
+                            }
+                        }
+                    ],
+                    "rightColumn": []
+                }
+            }
+        ]
+    
   },
   {
     "title": "300 € za lieky",

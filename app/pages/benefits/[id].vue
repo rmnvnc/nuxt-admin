@@ -3,6 +3,7 @@ import { CATEGORY_KEYS, SEGMENT_KEYS, type Benefit, type CategoryKey, type Segme
 import type { NuxtError } from '#app'
 import StringListField from '@/components/BenefitEditor/StringListField.vue'
 import BenefitIllustrationSelect from '~/components/BenefitEditor/BenefitIllustrationSelect.vue'
+import BlockEditor from '~/components/Blocks/BlockEditor.vue'
 
 const toast = useToast()
 const route = useRoute()
@@ -93,7 +94,7 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
         <template v-else-if="error"> Nepodarilo sa načítať benefit. {{ error?.message }} </template>
         <template v-else-if="benefitForm">
             <div class="flex flex-col lg:flex-row gap-8">
-                <div class="order-2 lg:order-0 w-full lg:max-w-[700px]">
+                <div class="order-2 lg:order-0 w-full lg:max-w-[800px]">
                     <BenefitIllustrationSelect
                         v-if="benefitForm?.illustration"
                         v-model="benefitForm.illustration"
@@ -173,6 +174,8 @@ const categoryModel = createBooleanRecordModel<CategoryKey>(CATEGORY_KEYS, 'cate
                         :rows="benefitForm.detail.more.stepper.steps.length"
                         :disabled="isSaving"
                     />
+
+                    <BlockEditor v-if="benefitForm.contentBlocks" v-model="benefitForm.contentBlocks" />
                 </div>
                 <div class="order-1 lg:order-0 flex-1">
                     <UButton :disabled="isSaving" @click="save">Uložiť</UButton>
